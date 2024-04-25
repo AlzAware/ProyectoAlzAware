@@ -1,4 +1,4 @@
-<p style="text-align:center;">
+<p align="center">
     <img src="https://i.imgur.com/CRYZtqV.jpeg" alt="AzlAware">
 </p>
 
