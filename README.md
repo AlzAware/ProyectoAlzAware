@@ -1,6 +1,6 @@
-<div style="text-align:center;">
+<p style="text-align:center;">
     <img src="https://i.imgur.com/CRYZtqV.jpeg" alt="AzlAware">
-</div>
+</p>
 
 AlzAware es una innovadora aplicación diseñada para ayudar a las personas que luchan contra el Alzheimer a preservar sus recuerdos y mejorar su agilidad mental. Además, está pensada para ser utilizada por cualquier persona interesada en mantener su salud cognitiva y prevenir la enfermedad.
 
