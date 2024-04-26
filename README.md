@@ -8,7 +8,7 @@
 
 <br><br>
 
-**Características principales:**
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Características principales:**
 
 •	**Ejercicios y Minijuegos Variados:** AlzAware ofrece una amplia variedad de ejercicios y minijuegos diseñados específicamente para estimular diferentes áreas del cerebro, como la memoria, la atención y la resolución de problemas.<br>
 •	**Niveles Adaptativos:** La aplicación presenta niveles adaptativos que se ajustan a las habilidades y necesidades individuales de cada usuario. Desde principiantes hasta expertos, todos encontrarán desafíos adecuados para su nivel de habilidad.<br>
