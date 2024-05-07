@@ -4,7 +4,7 @@ using TMPro;
 using UnityEngine.SceneManagement;
 using System.Collections;
 
-public class Server : MonoBehaviour
+public class InicioSesion : MonoBehaviour
 {
     // Declaración de variables
     [SerializeField] GameObject panelBienvenida;

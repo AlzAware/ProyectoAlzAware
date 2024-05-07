@@ -1,0 +1,22 @@
+Esta carpeta contiene 3 archivos necesarios para el uso de la base de datos:
+
+------------------------------------------------------------------------------------------------------------
+crearCuenta.php - Este archivo lo tienes que alojar en la ruta del XAMPP, si no lo has cambiado es:
+C:/xampp/htdocs/  Lo copiamos ahi dentro para poder usarlo en Unity a la hora de crear usuarios.
+------------------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------------------
+login.php - Este archivo lo tienes que alojar en la ruta del XAMPP, si no lo has cambiado es:
+C:/xampp/htdocs/  Lo copiamos ahi dentro para poder usarlo en Unity a la hora de iniciar sesión.
+------------------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------------------
+creacionBaseDeDatos.sql - Este archivo contiene un script SQL para la creación de la base de datos que 
+también introduce 4 usuarios con sus contraseñas. Este script tienes que usarlo desde phpMyAdmin, para ello:
+
+- Ponemos en el navegador: http://localhost/dashboard/
+- Pulsamos el botón de "phpMyAdmin" que se encuentra arriba del todo.
+- En la barra de arriba, aparecerá el botón "Importar", le damos y en la ventana que aparece seleccionamos el
+archivo creacionBaseDeDatos.sql.
+- Le damos al botón "Importar" abajo, y la base de datos se creará con los valores necesarios.
+------------------------------------------------------------------------------------------------------------
