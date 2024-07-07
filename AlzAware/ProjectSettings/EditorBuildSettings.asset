@@ -62,4 +62,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Ejercicios/EstadisticasEjercicioSeleccionado.unity
     guid: a95314db8df95864fa090eb54967a65f
+  - enabled: 1
+    path: Assets/Scenes/Ejercicios/SopaLetras/SopaLetras.unity
+    guid: 636786d53547c654b959280f9ebbb956
   m_configObjects: {}

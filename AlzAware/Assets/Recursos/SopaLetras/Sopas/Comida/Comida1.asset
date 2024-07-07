@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc450fff9036f184a8d55d8077ceb225, type: 3}
+  m_Name: Comida1
+  m_EditorClassIdentifier: 
+  Columns: 5
+  Rows: 5
+  Board:
+  - Size: 5
+    Row:
+    - L
+    - O
+    - P
+    - D
+    - P
+  - Size: 5
+    Row:
+    - S
+    - E
+    - Z
+    - I
+    - A
+  - Size: 5
+    Row:
+    - W
+    - G
+    - Z
+    - I
+    - S
+  - Size: 5
+    Row:
+    - B
+    - Z
+    - F
+    - C
+    - T
+  - Size: 5
+    Row:
+    - A
+    - K
+    - G
+    - A
+    - A
+  SearchWords:
+  - Found: 0
+    Word: PIZZA
+  - Found: 0
+    Word: PASTA

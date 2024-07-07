@@ -1,0 +1,104 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc450fff9036f184a8d55d8077ceb225, type: 3}
+  m_Name: Tiempo
+  m_EditorClassIdentifier: 
+  Columns: 8
+  Rows: 8
+  Board:
+  - Size: 8
+    Row:
+    - S
+    - O
+    - L
+    - C
+    - K
+    - Q
+    - O
+    - V
+  - Size: 8
+    Row:
+    - O
+    - C
+    - K
+    - G
+    - S
+    - H
+    - R
+    - E
+  - Size: 8
+    Row:
+    - P
+    - W
+    - A
+    - F
+    - A
+    - V
+    - K
+    - R
+  - Size: 8
+    Row:
+    - F
+    - W
+    - U
+    - L
+    - D
+    - D
+    - V
+    - A
+  - Size: 8
+    Row:
+    - V
+    - O
+    - J
+    - J
+    - O
+    - E
+    - N
+    - N
+  - Size: 8
+    Row:
+    - I
+    - S
+    - L
+    - G
+    - C
+    - R
+    - P
+    - O
+  - Size: 8
+    Row:
+    - U
+    - E
+    - I
+    - S
+    - W
+    - V
+    - U
+    - M
+  - Size: 8
+    Row:
+    - L
+    - O
+    - J
+    - T
+    - G
+    - V
+    - V
+    - L
+  SearchWords:
+  - Found: 0
+    Word: SOL
+  - Found: 0
+    Word: VERANO
+  - Found: 0
+    Word: CALOR

@@ -1,0 +1,102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc450fff9036f184a8d55d8077ceb225, type: 3}
+  m_Name: Animal1
+  m_EditorClassIdentifier: 
+  Columns: 8
+  Rows: 8
+  Board:
+  - Size: 8
+    Row:
+    - G
+    - A
+    - T
+    - O
+    - L
+    - H
+    - K
+    - I
+  - Size: 8
+    Row:
+    - N
+    - Y
+    - I
+    - K
+    - P
+    - S
+    - F
+    - Q
+  - Size: 8
+    Row:
+    - C
+    - H
+    - A
+    - G
+    - E
+    - Q
+    - S
+    - C
+  - Size: 8
+    Row:
+    - C
+    - D
+    - F
+    - W
+    - R
+    - K
+    - Y
+    - T
+  - Size: 8
+    Row:
+    - I
+    - U
+    - S
+    - B
+    - R
+    - M
+    - Z
+    - E
+  - Size: 8
+    Row:
+    - U
+    - J
+    - O
+    - A
+    - O
+    - E
+    - F
+    - M
+  - Size: 8
+    Row:
+    - G
+    - Y
+    - D
+    - U
+    - L
+    - O
+    - Z
+    - Q
+  - Size: 8
+    Row:
+    - G
+    - R
+    - S
+    - P
+    - U
+    - P
+    - H
+    - K
+  SearchWords:
+  - Found: 0
+    Word: GATO
+  - Found: 0
+    Word: PERRO

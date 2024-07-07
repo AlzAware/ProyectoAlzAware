@@ -1,0 +1,279 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\GitHub\\ProyectoAlzAware\\AlzAware\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4217D28B-1672-C9D0-35EA-979224E3899B}|Assembly-CSharp.csproj|c:\\github\\proyectoalzaware\\alzaware\\assets\\scripts\\ejercicios\\sopaletras\\palabracomprobar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4217D28B-1672-C9D0-35EA-979224E3899B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ejercicios\\sopaletras\\palabracomprobar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4217D28B-1672-C9D0-35EA-979224E3899B}|Assembly-CSharp.csproj|c:\\github\\proyectoalzaware\\alzaware\\assets\\scripts\\controladores\\controladormenus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4217D28B-1672-C9D0-35EA-979224E3899B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\controladores\\controladormenus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4217D28B-1672-C9D0-35EA-979224E3899B}|Assembly-CSharp.csproj|c:\\github\\proyectoalzaware\\alzaware\\assets\\scripts\\ejercicios\\sopaletras\\ventanasopacompletada.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4217D28B-1672-C9D0-35EA-979224E3899B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ejercicios\\sopaletras\\ventanasopacompletada.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4217D28B-1672-C9D0-35EA-979224E3899B}|Assembly-CSharp.csproj|C:\\GitHub\\ProyectoAlzAware\\AlzAware\\assets\\scripts\\ejercicios\\sopaletras\\eventosjuego.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4217D28B-1672-C9D0-35EA-979224E3899B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ejercicios\\sopaletras\\eventosjuego.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4217D28B-1672-C9D0-35EA-979224E3899B}|Assembly-CSharp.csproj|C:\\GitHub\\ProyectoAlzAware\\AlzAware\\assets\\scripts\\ejercicios\\sopaletras\\scriptableobjects\\datosniveljuego.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4217D28B-1672-C9D0-35EA-979224E3899B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ejercicios\\sopaletras\\scriptableobjects\\datosniveljuego.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4217D28B-1672-C9D0-35EA-979224E3899B}|Assembly-CSharp.csproj|C:\\GitHub\\ProyectoAlzAware\\AlzAware\\assets\\scripts\\ejercicios\\sopaletras\\selectorjuego.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4217D28B-1672-C9D0-35EA-979224E3899B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ejercicios\\sopaletras\\selectorjuego.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4217D28B-1672-C9D0-35EA-979224E3899B}|Assembly-CSharp.csproj|C:\\GitHub\\ProyectoAlzAware\\AlzAware\\assets\\scripts\\ejercicios\\sopaletras\\scriptableobjects\\datosjuego.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4217D28B-1672-C9D0-35EA-979224E3899B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ejercicios\\sopaletras\\scriptableobjects\\datosjuego.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4217D28B-1672-C9D0-35EA-979224E3899B}|Assembly-CSharp.csproj|C:\\GitHub\\ProyectoAlzAware\\AlzAware\\assets\\scripts\\ejercicios\\sopaletras\\busquedapalabralista.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4217D28B-1672-C9D0-35EA-979224E3899B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ejercicios\\sopaletras\\busquedapalabralista.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4217D28B-1672-C9D0-35EA-979224E3899B}|Assembly-CSharp.csproj|C:\\GitHub\\ProyectoAlzAware\\AlzAware\\assets\\scripts\\ejercicios\\sopaletras\\busquedapalabra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4217D28B-1672-C9D0-35EA-979224E3899B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ejercicios\\sopaletras\\busquedapalabra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4217D28B-1672-C9D0-35EA-979224E3899B}|Assembly-CSharp.csproj|C:\\GitHub\\ProyectoAlzAware\\AlzAware\\assets\\scripts\\ejercicios\\sopaletras\\redpalabras.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4217D28B-1672-C9D0-35EA-979224E3899B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ejercicios\\sopaletras\\redpalabras.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4217D28B-1672-C9D0-35EA-979224E3899B}|Assembly-CSharp.csproj|C:\\GitHub\\ProyectoAlzAware\\AlzAware\\assets\\scripts\\ejercicios\\sopaletras\\redcuadrada.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4217D28B-1672-C9D0-35EA-979224E3899B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ejercicios\\sopaletras\\redcuadrada.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4217D28B-1672-C9D0-35EA-979224E3899B}|Assembly-CSharp.csproj|C:\\GitHub\\ProyectoAlzAware\\AlzAware\\assets\\scripts\\ejercicios\\sopaletras\\utilidadesjuego.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4217D28B-1672-C9D0-35EA-979224E3899B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ejercicios\\sopaletras\\utilidadesjuego.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4217D28B-1672-C9D0-35EA-979224E3899B}|Assembly-CSharp.csproj|C:\\GitHub\\ProyectoAlzAware\\AlzAware\\assets\\scripts\\ejercicios\\sopaletras\\scriptableobjects\\datostablero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4217D28B-1672-C9D0-35EA-979224E3899B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ejercicios\\sopaletras\\scriptableobjects\\datostablero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93DA724A-02DA-6551-8855-D3D3D2B38D25}|Assembly-CSharp-Editor.csproj|C:\\GitHub\\ProyectoAlzAware\\AlzAware\\assets\\scripts\\ejercicios\\sopaletras\\editor\\dibujoalfabeto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93DA724A-02DA-6551-8855-D3D3D2B38D25}|Assembly-CSharp-Editor.csproj|solutionrelative:assets\\scripts\\ejercicios\\sopaletras\\editor\\dibujoalfabeto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4217D28B-1672-C9D0-35EA-979224E3899B}|Assembly-CSharp.csproj|C:\\GitHub\\ProyectoAlzAware\\AlzAware\\assets\\scripts\\ejercicios\\sopaletras\\scriptableobjects\\datosalfabeto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4217D28B-1672-C9D0-35EA-979224E3899B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ejercicios\\sopaletras\\scriptableobjects\\datosalfabeto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93DA724A-02DA-6551-8855-D3D3D2B38D25}|Assembly-CSharp-Editor.csproj|C:\\GitHub\\ProyectoAlzAware\\AlzAware\\assets\\scripts\\ejercicios\\sopaletras\\editor\\dibujotablero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93DA724A-02DA-6551-8855-D3D3D2B38D25}|Assembly-CSharp-Editor.csproj|solutionrelative:assets\\scripts\\ejercicios\\sopaletras\\editor\\dibujotablero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ControladorMenus.cs",
+              "DocumentMoniker": "C:\\GitHub\\ProyectoAlzAware\\AlzAware\\Assets\\Scripts\\Controladores\\ControladorMenus.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Controladores\\ControladorMenus.cs",
+              "ToolTip": "C:\\GitHub\\ProyectoAlzAware\\AlzAware\\Assets\\Scripts\\Controladores\\ControladorMenus.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Controladores\\ControladorMenus.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T08:14:21.153Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "VentanaSopaCompletada.cs",
+              "DocumentMoniker": "C:\\GitHub\\ProyectoAlzAware\\AlzAware\\Assets\\Scripts\\Ejercicios\\SopaLetras\\VentanaSopaCompletada.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Ejercicios\\SopaLetras\\VentanaSopaCompletada.cs",
+              "ToolTip": "C:\\GitHub\\ProyectoAlzAware\\AlzAware\\Assets\\Scripts\\Ejercicios\\SopaLetras\\VentanaSopaCompletada.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Ejercicios\\SopaLetras\\VentanaSopaCompletada.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T08:04:28.41Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SelectorJuego.cs",
+              "DocumentMoniker": "C:\\GitHub\\ProyectoAlzAware\\AlzAware\\Assets\\Scripts\\Ejercicios\\SopaLetras\\SelectorJuego.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Ejercicios\\SopaLetras\\SelectorJuego.cs",
+              "ToolTip": "C:\\GitHub\\ProyectoAlzAware\\AlzAware\\Assets\\Scripts\\Ejercicios\\SopaLetras\\SelectorJuego.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Ejercicios\\SopaLetras\\SelectorJuego.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-03T09:26:51.827Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PalabraComprobar.cs",
+              "DocumentMoniker": "C:\\GitHub\\ProyectoAlzAware\\AlzAware\\Assets\\Scripts\\Ejercicios\\SopaLetras\\PalabraComprobar.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Ejercicios\\SopaLetras\\PalabraComprobar.cs",
+              "ToolTip": "C:\\GitHub\\ProyectoAlzAware\\AlzAware\\Assets\\Scripts\\Ejercicios\\SopaLetras\\PalabraComprobar.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Ejercicios\\SopaLetras\\PalabraComprobar.cs",
+              "ViewState": "AQIAALwAAAAAAAAAAAAswNwAAABGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-03T07:43:26.208Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DatosNivelJuego.cs",
+              "DocumentMoniker": "C:\\GitHub\\ProyectoAlzAware\\AlzAware\\Assets\\Scripts\\Ejercicios\\SopaLetras\\ScriptableObjects\\DatosNivelJuego.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Ejercicios\\SopaLetras\\ScriptableObjects\\DatosNivelJuego.cs",
+              "ToolTip": "C:\\GitHub\\ProyectoAlzAware\\AlzAware\\Assets\\Scripts\\Ejercicios\\SopaLetras\\ScriptableObjects\\DatosNivelJuego.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Ejercicios\\SopaLetras\\ScriptableObjects\\DatosNivelJuego.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-03T09:16:00.958Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BusquedaPalabraLista.cs",
+              "DocumentMoniker": "C:\\GitHub\\ProyectoAlzAware\\AlzAware\\Assets\\Scripts\\Ejercicios\\SopaLetras\\BusquedaPalabraLista.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Ejercicios\\SopaLetras\\BusquedaPalabraLista.cs",
+              "ToolTip": "C:\\GitHub\\ProyectoAlzAware\\AlzAware\\Assets\\Scripts\\Ejercicios\\SopaLetras\\BusquedaPalabraLista.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Ejercicios\\SopaLetras\\BusquedaPalabraLista.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAE8AAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-03T08:12:56.502Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "BusquedaPalabra.cs",
+              "DocumentMoniker": "C:\\GitHub\\ProyectoAlzAware\\AlzAware\\Assets\\Scripts\\Ejercicios\\SopaLetras\\BusquedaPalabra.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Ejercicios\\SopaLetras\\BusquedaPalabra.cs",
+              "ToolTip": "C:\\GitHub\\ProyectoAlzAware\\AlzAware\\Assets\\Scripts\\Ejercicios\\SopaLetras\\BusquedaPalabra.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Ejercicios\\SopaLetras\\BusquedaPalabra.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAQAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-03T08:12:04.303Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EventosJuego.cs",
+              "DocumentMoniker": "C:\\GitHub\\ProyectoAlzAware\\AlzAware\\Assets\\Scripts\\Ejercicios\\SopaLetras\\EventosJuego.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Ejercicios\\SopaLetras\\EventosJuego.cs",
+              "ToolTip": "C:\\GitHub\\ProyectoAlzAware\\AlzAware\\Assets\\Scripts\\Ejercicios\\SopaLetras\\EventosJuego.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Ejercicios\\SopaLetras\\EventosJuego.cs",
+              "ViewState": "AQIAADIAAAAAAAAAAAAgwE8AAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-03T07:27:05.733Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "RedCuadrada.cs",
+              "DocumentMoniker": "C:\\GitHub\\ProyectoAlzAware\\AlzAware\\Assets\\Scripts\\Ejercicios\\SopaLetras\\RedCuadrada.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Ejercicios\\SopaLetras\\RedCuadrada.cs",
+              "ToolTip": "C:\\GitHub\\ProyectoAlzAware\\AlzAware\\Assets\\Scripts\\Ejercicios\\SopaLetras\\RedCuadrada.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Ejercicios\\SopaLetras\\RedCuadrada.cs",
+              "ViewState": "AQIAAF0AAAAAAAAAAAAkwB0AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-01T08:19:21.604Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "RedPalabras.cs",
+              "DocumentMoniker": "C:\\GitHub\\ProyectoAlzAware\\AlzAware\\Assets\\Scripts\\Ejercicios\\SopaLetras\\RedPalabras.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Ejercicios\\SopaLetras\\RedPalabras.cs",
+              "ToolTip": "C:\\GitHub\\ProyectoAlzAware\\AlzAware\\Assets\\Scripts\\Ejercicios\\SopaLetras\\RedPalabras.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Ejercicios\\SopaLetras\\RedPalabras.cs",
+              "ViewState": "AQIAAFAAAAAAAAAAAAAIwI0AAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-01T08:12:50.068Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DatosJuego.cs",
+              "DocumentMoniker": "C:\\GitHub\\ProyectoAlzAware\\AlzAware\\Assets\\Scripts\\Ejercicios\\SopaLetras\\ScriptableObjects\\DatosJuego.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Ejercicios\\SopaLetras\\ScriptableObjects\\DatosJuego.cs",
+              "ToolTip": "C:\\GitHub\\ProyectoAlzAware\\AlzAware\\Assets\\Scripts\\Ejercicios\\SopaLetras\\ScriptableObjects\\DatosJuego.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Ejercicios\\SopaLetras\\ScriptableObjects\\DatosJuego.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-01T07:59:09.317Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "DibujoAlfabeto.cs",
+              "DocumentMoniker": "C:\\GitHub\\ProyectoAlzAware\\AlzAware\\Assets\\Scripts\\Ejercicios\\SopaLetras\\Editor\\DibujoAlfabeto.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Ejercicios\\SopaLetras\\Editor\\DibujoAlfabeto.cs",
+              "ToolTip": "C:\\GitHub\\ProyectoAlzAware\\AlzAware\\Assets\\Scripts\\Ejercicios\\SopaLetras\\Editor\\DibujoAlfabeto.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Ejercicios\\SopaLetras\\Editor\\DibujoAlfabeto.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAQwBMAAABXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-01T07:38:45.457Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "DatosAlfabeto.cs",
+              "DocumentMoniker": "C:\\GitHub\\ProyectoAlzAware\\AlzAware\\Assets\\Scripts\\Ejercicios\\SopaLetras\\ScriptableObjects\\DatosAlfabeto.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Ejercicios\\SopaLetras\\ScriptableObjects\\DatosAlfabeto.cs",
+              "ToolTip": "C:\\GitHub\\ProyectoAlzAware\\AlzAware\\Assets\\Scripts\\Ejercicios\\SopaLetras\\ScriptableObjects\\DatosAlfabeto.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Ejercicios\\SopaLetras\\ScriptableObjects\\DatosAlfabeto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-01T07:21:14.419Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "DibujoTablero.cs",
+              "DocumentMoniker": "C:\\GitHub\\ProyectoAlzAware\\AlzAware\\Assets\\Scripts\\Ejercicios\\SopaLetras\\Editor\\DibujoTablero.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Ejercicios\\SopaLetras\\Editor\\DibujoTablero.cs",
+              "ToolTip": "C:\\GitHub\\ProyectoAlzAware\\AlzAware\\Assets\\Scripts\\Ejercicios\\SopaLetras\\Editor\\DibujoTablero.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Ejercicios\\SopaLetras\\Editor\\DibujoTablero.cs",
+              "ViewState": "AQIAAJIAAAAAAAAAAAAuwBUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-01T06:49:19.439Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "DatosTablero.cs",
+              "DocumentMoniker": "C:\\GitHub\\ProyectoAlzAware\\AlzAware\\Assets\\Scripts\\Ejercicios\\SopaLetras\\ScriptableObjects\\DatosTablero.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Ejercicios\\SopaLetras\\ScriptableObjects\\DatosTablero.cs",
+              "ToolTip": "C:\\GitHub\\ProyectoAlzAware\\AlzAware\\Assets\\Scripts\\Ejercicios\\SopaLetras\\ScriptableObjects\\DatosTablero.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Ejercicios\\SopaLetras\\ScriptableObjects\\DatosTablero.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-01T06:34:41.324Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UtilidadesJuego.cs",
+              "DocumentMoniker": "C:\\GitHub\\ProyectoAlzAware\\AlzAware\\Assets\\Scripts\\Ejercicios\\SopaLetras\\UtilidadesJuego.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Ejercicios\\SopaLetras\\UtilidadesJuego.cs",
+              "ToolTip": "C:\\GitHub\\ProyectoAlzAware\\AlzAware\\Assets\\Scripts\\Ejercicios\\SopaLetras\\UtilidadesJuego.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Ejercicios\\SopaLetras\\UtilidadesJuego.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-01T06:14:56.816Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
