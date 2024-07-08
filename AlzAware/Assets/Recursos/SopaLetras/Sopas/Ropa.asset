@@ -1,0 +1,152 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc450fff9036f184a8d55d8077ceb225, type: 3}
+  m_Name: Ropa
+  m_EditorClassIdentifier: 
+  Columns: 10
+  Rows: 10
+  Board:
+  - Size: 10
+    Row:
+    - O
+    - T
+    - B
+    - R
+    - A
+    - L
+    - F
+    - W
+    - I
+    - L
+  - Size: 10
+    Row:
+    - D
+    - F
+    - F
+    - F
+    - A
+    - A
+    - Y
+    - V
+    - V
+    - F
+  - Size: 10
+    Row:
+    - I
+    - E
+    - A
+    - L
+    - G
+    - T
+    - O
+    - P
+    - U
+    - N
+  - Size: 10
+    Row:
+    - T
+    - E
+    - L
+    - G
+    - V
+    - A
+    - J
+    - R
+    - E
+    - H
+  - Size: 10
+    Row:
+    - S
+    - U
+    - D
+    - V
+    - P
+    - B
+    - K
+    - Y
+    - P
+    - J
+  - Size: 10
+    Row:
+    - E
+    - M
+    - A
+    - B
+    - T
+    - R
+    - A
+    - J
+    - E
+    - I
+  - Size: 10
+    Row:
+    - V
+    - L
+    - U
+    - F
+    - R
+    - O
+    - G
+    - P
+    - F
+    - N
+  - Size: 10
+    Row:
+    - N
+    - D
+    - B
+    - Q
+    - P
+    - C
+    - L
+    - U
+    - H
+    - O
+  - Size: 10
+    Row:
+    - C
+    - A
+    - M
+    - I
+    - S
+    - E
+    - T
+    - A
+    - U
+    - V
+  - Size: 10
+    Row:
+    - F
+    - N
+    - N
+    - S
+    - O
+    - T
+    - A
+    - P
+    - A
+    - Z
+  SearchWords:
+  - Found: 0
+    Word: VESTIDO
+  - Found: 0
+    Word: TRAJE
+  - Found: 0
+    Word: FALDA
+  - Found: 0
+    Word: ZAPATOS
+  - Found: 0
+    Word: CAMISETA
+  - Found: 0
+    Word: TOP
+  - Found: 0
+    Word: CORBATA

@@ -1,0 +1,152 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc450fff9036f184a8d55d8077ceb225, type: 3}
+  m_Name: Peliculas
+  m_EditorClassIdentifier: 
+  Columns: 10
+  Rows: 10
+  Board:
+  - Size: 10
+    Row:
+    - Z
+    - G
+    - J
+    - F
+    - M
+    - V
+    - D
+    - J
+    - O
+    - A
+  - Size: 10
+    Row:
+    - Q
+    - L
+    - U
+    - C
+    - G
+    - P
+    - L
+    - L
+    - H
+    - L
+  - Size: 10
+    Row:
+    - C
+    - A
+    - N
+    - J
+    - A
+    - P
+    - B
+    - M
+    - Y
+    - I
+  - Size: 10
+    Row:
+    - I
+    - D
+    - M
+    - A
+    - T
+    - R
+    - I
+    - X
+    - L
+    - E
+  - Size: 10
+    Row:
+    - N
+    - I
+    - A
+    - N
+    - A
+    - U
+    - S
+    - A
+    - J
+    - N
+  - Size: 10
+    Row:
+    - A
+    - A
+    - Q
+    - I
+    - R
+    - N
+    - H
+    - Z
+    - J
+    - H
+  - Size: 10
+    Row:
+    - T
+    - T
+    - I
+    - N
+    - Z
+    - Z
+    - K
+    - K
+    - U
+    - Z
+  - Size: 10
+    Row:
+    - I
+    - O
+    - A
+    - Z
+    - A
+    - G
+    - Z
+    - G
+    - N
+    - S
+  - Size: 10
+    Row:
+    - T
+    - R
+    - V
+    - N
+    - N
+    - K
+    - O
+    - A
+    - M
+    - B
+  - Size: 10
+    Row:
+    - F
+    - Q
+    - J
+    - R
+    - A
+    - T
+    - A
+    - V
+    - A
+    - D
+  SearchWords:
+  - Found: 0
+    Word: TITANIC
+  - Found: 0
+    Word: AVATAR
+  - Found: 0
+    Word: CARS
+  - Found: 0
+    Word: TARZAN
+  - Found: 0
+    Word: GLADIATOR
+  - Found: 0
+    Word: MATRIX
+  - Found: 0
+    Word: ALIEN

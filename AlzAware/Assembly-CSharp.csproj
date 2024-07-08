@@ -72,11 +72,8 @@
     <Compile Include="Assets\Scripts\Ejercicios\SopaLetras\ScriptableObjects\DatosTablero.cs" />
     <Compile Include="Assets\Scripts\Ejercicios\SopaLetras\ScriptableObjects\DatosAlfabeto.cs" />
     <Compile Include="Assets\Scripts\Ejercicios\SopaLetras\ScriptableObjects\DatosJuego.cs" />
-    <Compile Include="Assets\Scripts\Ejercicios\SopaLetras\VentanaSopaCompletada.cs" />
     <Compile Include="Assets\Scripts\Controladores\ControladorSplash.cs" />
-    <Compile Include="Assets\Scripts\Ejercicios\SopaLetras\SelectorJuego.cs" />
     <Compile Include="Assets\Scripts\Controladores\ControladorMenus.cs" />
-    <Compile Include="Assets\Scripts\Ejercicios\SopaLetras\UtilidadesJuego.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

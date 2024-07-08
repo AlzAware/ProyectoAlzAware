@@ -1,0 +1,154 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc450fff9036f184a8d55d8077ceb225, type: 3}
+  m_Name: Animal
+  m_EditorClassIdentifier: 
+  Columns: 10
+  Rows: 10
+  Board:
+  - Size: 10
+    Row:
+    - T
+    - G
+    - I
+    - J
+    - I
+    - R
+    - A
+    - F
+    - A
+    - T
+  - Size: 10
+    Row:
+    - I
+    - B
+    - L
+    - D
+    - K
+    - O
+    - O
+    - S
+    - O
+    - I
+  - Size: 10
+    Row:
+    - G
+    - C
+    - H
+    - Z
+    - E
+    - E
+    - J
+    - E
+    - U
+    - B
+  - Size: 10
+    Row:
+    - R
+    - A
+    - Q
+    - O
+    - I
+    - L
+    - H
+    - Q
+    - G
+    - U
+  - Size: 10
+    Row:
+    - E
+    - L
+    - S
+    - H
+    - W
+    - H
+    - F
+    - K
+    - G
+    - R
+  - Size: 10
+    Row:
+    - H
+    - E
+    - B
+    - Q
+    - E
+    - M
+    - W
+    - I
+    - Z
+    - O
+  - Size: 10
+    Row:
+    - G
+    - C
+    - G
+    - O
+    - R
+    - I
+    - L
+    - A
+    - N
+    - N
+  - Size: 10
+    Row:
+    - Z
+    - A
+    - I
+    - H
+    - J
+    - P
+    - E
+    - H
+    - K
+    - E
+  - Size: 10
+    Row:
+    - Q
+    - G
+    - W
+    - J
+    - O
+    - S
+    - R
+    - P
+    - E
+    - N
+  - Size: 10
+    Row:
+    - J
+    - R
+    - Y
+    - R
+    - E
+    - T
+    - S
+    - M
+    - A
+    - H
+  SearchWords:
+  - Found: 0
+    Word: TIGRE
+  - Found: 0
+    Word: DELFIN
+  - Found: 0
+    Word: GACELA
+  - Found: 0
+    Word: GORILA
+  - Found: 0
+    Word: HAMSTER
+  - Found: 0
+    Word: TIBURON
+  - Found: 0
+    Word: OSO
+  - Found: 0
+    Word: JIRAFA

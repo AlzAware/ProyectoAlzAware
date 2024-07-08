@@ -7,7 +7,7 @@ using UnityEngine.UIElements;
 
 public class RedPalabras : MonoBehaviour
 {
-    public DatosJuego currentGameData;
+    public DatosTablero currentGameData;
     public GameObject gridSquarePrefab;
     public DatosAlfabeto alphabetData;
 
@@ -39,7 +39,7 @@ public class RedPalabras : MonoBehaviour
 
         foreach (var square in _squareList)
         {
-            if (rowNumber + 1 > currentGameData.selectedBoardData.Rows)
+            if (rowNumber + 1 > currentGameData.Rows)
             {
                 columnNumber++;
                 rowNumber = 0;
@@ -61,8 +61,8 @@ public class RedPalabras : MonoBehaviour
         squareSize.x = squareRect.width * squareTransform.localScale.x;
         squareSize.y = squareRect.height * squareTransform.localScale.y;
 
-        var midWidthPosition = (((currentGameData.selectedBoardData.Columns - 1) * squareSize.x) / 2) * 0.01f;
-        var midWidthHeight = (((currentGameData.selectedBoardData.Rows - 1) * squareSize.y) / 2) * 0.01f;
+        var midWidthPosition = (((currentGameData.Columns - 1) * squareSize.x) / 2) * 0.01f;
+        var midWidthHeight = (((currentGameData.Rows - 1) * squareSize.y) / 2) * 0.01f;
 
         startPosition.x = (midWidthPosition != 0) ? midWidthPosition * -1 : midWidthPosition;
         startPosition.y += (midWidthHeight);
@@ -75,7 +75,7 @@ public class RedPalabras : MonoBehaviour
         if (currentGameData != null)
         {
             var squareScale = GetSquareScale(new Vector3(1.5f, 1.5f, 0.1f));
-            foreach (var squares in currentGameData.selectedBoardData.Board)
+            foreach (var squares in currentGameData.Board)
             {
                 foreach (var squareLetter in squares.Row)
                 {
@@ -139,8 +139,8 @@ public class RedPalabras : MonoBehaviour
         squareSize.y = (squareRect.width * targetScale.x) + squareOffset;
         squareSize.y = (squareRect.height * targetScale.y) + squareOffset;
 
-        var midWidthPosition = ((currentGameData.selectedBoardData.Columns * squareSize.x) / 2) * 0.01f;
-        var midWidthHeight = ((currentGameData.selectedBoardData.Rows * squareSize.y) / 2) * 0.01f;
+        var midWidthPosition = ((currentGameData.Columns * squareSize.x) / 2) * 0.01f;
+        var midWidthHeight = ((currentGameData.Rows * squareSize.y) / 2) * 0.01f;
 
         startPosition.x = (midWidthPosition != 0) ? midWidthPosition * -1 : midWidthPosition;
         startPosition.y = midWidthHeight;

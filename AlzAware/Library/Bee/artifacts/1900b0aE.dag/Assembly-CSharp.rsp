@@ -390,9 +390,6 @@
 "Assets/Scripts/Ejercicios/SopaLetras/ScriptableObjects/DatosJuego.cs"
 "Assets/Scripts/Ejercicios/SopaLetras/ScriptableObjects/DatosNivelJuego.cs"
 "Assets/Scripts/Ejercicios/SopaLetras/ScriptableObjects/DatosTablero.cs"
-"Assets/Scripts/Ejercicios/SopaLetras/SelectorJuego.cs"
-"Assets/Scripts/Ejercicios/SopaLetras/UtilidadesJuego.cs"
-"Assets/Scripts/Ejercicios/SopaLetras/VentanaSopaCompletada.cs"
 "Assets/Scripts/Servidor/CrearCuenta.cs"
 "Assets/Scripts/Servidor/InicioSesion.cs"
 -langversion:9.0

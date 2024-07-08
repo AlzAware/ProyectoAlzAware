@@ -1,0 +1,154 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc450fff9036f184a8d55d8077ceb225, type: 3}
+  m_Name: Muebles
+  m_EditorClassIdentifier: 
+  Columns: 10
+  Rows: 10
+  Board:
+  - Size: 10
+    Row:
+    - O
+    - I
+    - R
+    - O
+    - T
+    - I
+    - R
+    - C
+    - S
+    - E
+  - Size: 10
+    Row:
+    - A
+    - S
+    - O
+    - F
+    - A
+    - H
+    - I
+    - P
+    - S
+    - J
+  - Size: 10
+    Row:
+    - P
+    - J
+    - P
+    - N
+    - P
+    - T
+    - W
+    - T
+    - P
+    - M
+  - Size: 10
+    Row:
+    - A
+    - L
+    - L
+    - I
+    - S
+    - O
+    - A
+    - C
+    - O
+    - E
+  - Size: 10
+    Row:
+    - R
+    - J
+    - V
+    - L
+    - A
+    - N
+    - R
+    - U
+    - I
+    - S
+  - Size: 10
+    Row:
+    - A
+    - P
+    - C
+    - S
+    - T
+    - B
+    - N
+    - J
+    - R
+    - A
+  - Size: 10
+    Row:
+    - D
+    - C
+    - T
+    - E
+    - U
+    - S
+    - C
+    - Z
+    - A
+    - S
+  - Size: 10
+    Row:
+    - O
+    - U
+    - R
+    - H
+    - W
+    - Z
+    - A
+    - Z
+    - M
+    - D
+  - Size: 10
+    Row:
+    - R
+    - I
+    - D
+    - S
+    - F
+    - B
+    - M
+    - S
+    - R
+    - P
+  - Size: 10
+    Row:
+    - A
+    - G
+    - R
+    - I
+    - Y
+    - O
+    - A
+    - J
+    - A
+    - G
+  SearchWords:
+  - Found: 0
+    Word: SILLA
+  - Found: 0
+    Word: SOFA
+  - Found: 0
+    Word: MESA
+  - Found: 0
+    Word: CAMA
+  - Found: 0
+    Word: ESTANTERIA
+  - Found: 0
+    Word: ARMARIO
+  - Found: 0
+    Word: ESCRITORIO
+  - Found: 0
+    Word: APARADOR

@@ -7,8 +7,7 @@ using static EventosJuego;
 
 public class PalabraComprobar : MonoBehaviour
 {
-    public DatosJuego currentGameData; 
-    public DatosNivelJuego gameLevelData;
+    public DatosTablero currentGameData;
     private string _word;
     private HashSet<int> completedBoards = new HashSet<int>();
 
@@ -26,23 +25,20 @@ public class PalabraComprobar : MonoBehaviour
     {
         EventosJuego.OnCheckSquare += SquareSelected;
         EventosJuego.OnClearSelection += ClearSelection;
-        EventosJuego .OnLoadNextLevel += LoadNextGameLevel;
+        
 
     }
     private void OnDisable()
     {
         EventosJuego.OnCheckSquare -= SquareSelected;
         EventosJuego.OnClearSelection -= ClearSelection;
-        EventosJuego.OnLoadNextLevel -= LoadNextGameLevel;
+        
 
     }
-    private void LoadNextGameLevel()
-    {
-        SceneManager.LoadScene("SopaLetras");
-    }
+    
     void Start()
     {
-        currentGameData.selectedBoardData.ClearData();
+        currentGameData.ClearData();
         _assignedPoints = 0;
         _completedWords = 0;
     }
@@ -104,7 +100,7 @@ public class PalabraComprobar : MonoBehaviour
     private void CheckWord()
     {
         //Se recorren todas las letras y si la letra es la palabra buscada se ganara puntos
-        foreach (var searchingWord in currentGameData.selectedBoardData.SearchWords)
+        foreach (var searchingWord in currentGameData.SearchWords)
         {
             if (_word == searchingWord.Word && searchingWord.Found == false)
             {
@@ -176,65 +172,21 @@ public class PalabraComprobar : MonoBehaviour
 
     private void CheckBoardCompleted()
     {
-        if (currentGameData.selectedBoardData.SearchWords.Count == _completedWords)
+        if (currentGameData.SearchWords.Count == _completedWords)
         {
-            // Obtener la categoría actual
-            var categoryName = currentGameData.selectedCategoryName;
-            int currentCategoryIndex = 0;
             
-
-            // Encontrar el índice de la categoría actual
-            for (int index = 0; index < gameLevelData.data.Count; index++)
-            {
-                if (gameLevelData.data[index].categoryName == categoryName)
-                {
-                    currentCategoryIndex = index;
-                    break;
-                }
-            }
-
-            var currentLevelSize = gameLevelData.data[currentCategoryIndex].boardData.Count;
-
-            // Agregar el tablero completado a la lista
-            int currentBoardIndex = gameLevelData.data[currentCategoryIndex].boardData.IndexOf(currentGameData.selectedBoardData);
-            completedBoards.Add(currentBoardIndex);
-
-            
-            // Seleccionar un nuevo tablero aleatorio que no esté en la lista de completados
-            System.Random random = new System.Random();
-            int nextBoardIndex;
-            do
-            {
-                nextBoardIndex = random.Next(0, currentLevelSize);
-            }
-            while (completedBoards.Contains(nextBoardIndex) && completedBoards.Count < currentLevelSize);
-
-            // Si todos los tableros de la categoría actual se han completado, pasar a la siguiente categoría
-            if (completedBoards.Count >= currentLevelSize)
-            {
-                completedBoards.Clear();
-                currentCategoryIndex++;
-                if (currentCategoryIndex < gameLevelData.data.Count)
-                {
-                    categoryName = gameLevelData.data[currentCategoryIndex].categoryName;
-                    currentLevelSize = gameLevelData.data[currentCategoryIndex].boardData.Count;
-                    nextBoardIndex = random.Next(0, currentLevelSize);
-               
-                }
-                else
-                {
                     // Si no hay más categorías, volver a la escena de selección de categoría
                     SceneManager.LoadScene("EstadisticasEjercicioSeleccionado");
                     return;
-                }
-            }
+                
+        }
 
             // Establecer el nuevo tablero seleccionado
-            currentGameData.selectedBoardData = gameLevelData.data[currentCategoryIndex].boardData[nextBoardIndex];
+           //  currentGameData= gameLevelData.data[currentCategoryIndex].boardData[nextBoardIndex];
 
             // Llamar al método adecuado para indicar que se ha completado el tablero
             EventosJuego.BoardCompletedMethod();
-        }
+        
     }
 
 }

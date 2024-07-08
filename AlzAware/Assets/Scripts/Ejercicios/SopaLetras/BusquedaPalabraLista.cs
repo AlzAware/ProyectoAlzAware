@@ -5,7 +5,7 @@ using static DatosTablero;
 
 public class BusquedaPalabraLista : MonoBehaviour
 {
-    public DatosJuego currentGameData;
+    public DatosTablero currentGameData;
     public GameObject searchingWordPrefab;
     public float offset = 0.0f;
     public int maxColumns = 5;
@@ -19,7 +19,7 @@ public class BusquedaPalabraLista : MonoBehaviour
   
     void Start()
     {
-        _wordsNumber = currentGameData.selectedBoardData.SearchWords.Count;
+        _wordsNumber = currentGameData.SearchWords.Count;
 
         if (_wordsNumber < _columns)
             _rows = 1;
@@ -77,7 +77,7 @@ public class BusquedaPalabraLista : MonoBehaviour
             _words[index].transform.SetParent(this.transform);
             _words[index].GetComponent<RectTransform>().localScale = squareScale;
             _words[index].GetComponent<RectTransform>().localPosition = new Vector3(0f, 0f, 0f);
-            _words[index].GetComponent<BusquedaPalabra>().SetWord(currentGameData.selectedBoardData.SearchWords[index].Word);
+            _words[index].GetComponent<BusquedaPalabra>().SetWord(currentGameData.SearchWords[index].Word);
 
         }
     }

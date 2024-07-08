@@ -77,13 +77,4 @@ public  static class EventosJuego
         if (OnBoardCompleted != null)
             OnBoardCompleted();
     }
-    //****************************
-    //Cargar siguiente nivel
-    public delegate void LoadNextLevel();
-    public static event LoadNextLevel OnLoadNextLevel;
-    public static void LoadNextLevelMethod()
-    {
-        if (OnLoadNextLevel != null)
-            OnLoadNextLevel();
-    }
 }

@@ -1,5 +1,7 @@
+using JetBrains.Annotations;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor.SearchService;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -33,12 +35,14 @@ public class ControladorMenuPrincipal : MonoBehaviour
     public void IrAEjercicios()
     {
         SceneManager.LoadScene("Ejercicios");
+
     }
 
     // Método utilizado para saltar a la escena de las Estadísticas Globales
     public void IrAEstadisticas()
     {
         SceneManager.LoadScene("EstadisticasGlobales");
+        
     }
 
     // Método utilizado para saltar a la escena de Ajustes

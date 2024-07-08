@@ -1,0 +1,152 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc450fff9036f184a8d55d8077ceb225, type: 3}
+  m_Name: Juegos
+  m_EditorClassIdentifier: 
+  Columns: 10
+  Rows: 10
+  Board:
+  - Size: 10
+    Row:
+    - P
+    - F
+    - T
+    - T
+    - K
+    - M
+    - Y
+    - A
+    - Q
+    - M
+  - Size: 10
+    Row:
+    - A
+    - K
+    - R
+    - J
+    - F
+    - E
+    - C
+    - W
+    - I
+    - S
+  - Size: 10
+    Row:
+    - R
+    - Y
+    - I
+    - Q
+    - D
+    - T
+    - A
+    - D
+    - L
+    - P
+  - Size: 10
+    Row:
+    - C
+    - Q
+    - V
+    - H
+    - W
+    - I
+    - R
+    - U
+    - O
+    - C
+  - Size: 10
+    Row:
+    - H
+    - U
+    - I
+    - M
+    - T
+    - D
+    - T
+    - G
+    - P
+    - N
+  - Size: 10
+    Row:
+    - I
+    - Z
+    - A
+    - C
+    - V
+    - N
+    - A
+    - H
+    - O
+    - C
+  - Size: 10
+    Row:
+    - S
+    - W
+    - L
+    - E
+    - A
+    - O
+    - S
+    - R
+    - N
+    - M
+  - Size: 10
+    Row:
+    - B
+    - I
+    - N
+    - G
+    - O
+    - C
+    - F
+    - E
+    - O
+    - J
+  - Size: 10
+    Row:
+    - E
+    - J
+    - A
+    - R
+    - A
+    - S
+    - F
+    - Z
+    - M
+    - W
+  - Size: 10
+    Row:
+    - A
+    - Y
+    - A
+    - R
+    - N
+    - E
+    - S
+    - E
+    - R
+    - T
+  SearchWords:
+  - Found: 0
+    Word: ESCONDITE
+  - Found: 0
+    Word: PARCHIS
+  - Found: 0
+    Word: TRESENRAYA
+  - Found: 0
+    Word: TRIVIAL
+  - Found: 0
+    Word: BINGO
+  - Found: 0
+    Word: MONOPOLI
+  - Found: 0
+    Word: CARTAS

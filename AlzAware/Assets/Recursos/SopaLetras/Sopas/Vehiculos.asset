@@ -1,0 +1,152 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc450fff9036f184a8d55d8077ceb225, type: 3}
+  m_Name: Vehiculos
+  m_EditorClassIdentifier: 
+  Columns: 10
+  Rows: 10
+  Board:
+  - Size: 10
+    Row:
+    - Z
+    - N
+    - Y
+    - C
+    - O
+    - C
+    - H
+    - E
+    - Q
+    - O
+  - Size: 10
+    Row:
+    - B
+    - E
+    - O
+    - C
+    - R
+    - A
+    - B
+    - T
+    - K
+    - Y
+  - Size: 10
+    Row:
+    - A
+    - I
+    - W
+    - B
+    - N
+    - H
+    - T
+    - U
+    - A
+    - N
+  - Size: 10
+    Row:
+    - T
+    - V
+    - C
+    - O
+    - H
+    - F
+    - O
+    - T
+    - N
+    - N
+  - Size: 10
+    Row:
+    - A
+    - G
+    - U
+    - I
+    - O
+    - L
+    - E
+    - R
+    - Y
+    - E
+  - Size: 10
+    Row:
+    - S
+    - M
+    - B
+    - K
+    - C
+    - T
+    - L
+    - E
+    - B
+    - W
+  - Size: 10
+    Row:
+    - P
+    - T
+    - Y
+    - M
+    - M
+    - L
+    - F
+    - N
+    - Y
+    - E
+  - Size: 10
+    Row:
+    - Y
+    - Z
+    - G
+    - J
+    - D
+    - I
+    - E
+    - R
+    - M
+    - I
+  - Size: 10
+    Row:
+    - G
+    - M
+    - O
+    - T
+    - O
+    - E
+    - F
+    - T
+    - Q
+    - O
+  - Size: 10
+    Row:
+    - U
+    - N
+    - O
+    - I
+    - V
+    - A
+    - Z
+    - A
+    - A
+    - D
+  SearchWords:
+  - Found: 0
+    Word: COCHE
+  - Found: 0
+    Word: AVION
+  - Found: 0
+    Word: BICICLETA
+  - Found: 0
+    Word: MOTO
+  - Found: 0
+    Word: TREN
+  - Found: 0
+    Word: BARCO
+  - Found: 0
+    Word: YATE
