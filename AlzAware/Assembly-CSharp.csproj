@@ -62,6 +62,7 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\Ejercicios\SopaLetras\BusquedaPalabra.cs" />
     <Compile Include="Assets\Scripts\Servidor\InicioSesion.cs" />
+    <Compile Include="Assets\Scripts\Controladores\CargarEscenasAleatorias.cs" />
     <Compile Include="Assets\Scripts\Ejercicios\SopaLetras\BusquedaPalabraLista.cs" />
     <Compile Include="Assets\Scripts\Ejercicios\SopaLetras\ScriptableObjects\DatosNivelJuego.cs" />
     <Compile Include="Assets\Scripts\Ejercicios\SopaLetras\EventosJuego.cs" />
@@ -72,6 +73,7 @@
     <Compile Include="Assets\Scripts\Ejercicios\SopaLetras\ScriptableObjects\DatosTablero.cs" />
     <Compile Include="Assets\Scripts\Ejercicios\SopaLetras\ScriptableObjects\DatosAlfabeto.cs" />
     <Compile Include="Assets\Scripts\Ejercicios\SopaLetras\ScriptableObjects\DatosJuego.cs" />
+    <Compile Include="Assets\Scripts\Ejercicios\SopaLetras\Contador.cs" />
     <Compile Include="Assets\Scripts\Controladores\ControladorSplash.cs" />
     <Compile Include="Assets\Scripts\Controladores\ControladorMenus.cs" />
   </ItemGroup>

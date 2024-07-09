@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\GitHub\\ProyectoAlzAware\\AlzAware\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{4217D28B-1672-C9D0-35EA-979224E3899B}|Assembly-CSharp.csproj|c:\\github\\proyectoalzaware\\alzaware\\assets\\scripts\\ejercicios\\sopaletras\\contador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4217D28B-1672-C9D0-35EA-979224E3899B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ejercicios\\sopaletras\\contador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4217D28B-1672-C9D0-35EA-979224E3899B}|Assembly-CSharp.csproj|c:\\github\\proyectoalzaware\\alzaware\\assets\\scripts\\controladores\\cargarescenasaleatorias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4217D28B-1672-C9D0-35EA-979224E3899B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\controladores\\cargarescenasaleatorias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4217D28B-1672-C9D0-35EA-979224E3899B}|Assembly-CSharp.csproj|C:\\GitHub\\ProyectoAlzAware\\AlzAware\\assets\\scripts\\controladores\\controladormenus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4217D28B-1672-C9D0-35EA-979224E3899B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\controladores\\controladormenus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -54,11 +62,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Contador.cs",
+              "DocumentMoniker": "C:\\GitHub\\ProyectoAlzAware\\AlzAware\\Assets\\Scripts\\Ejercicios\\SopaLetras\\Contador.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Ejercicios\\SopaLetras\\Contador.cs",
+              "ToolTip": "C:\\GitHub\\ProyectoAlzAware\\AlzAware\\Assets\\Scripts\\Ejercicios\\SopaLetras\\Contador.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Ejercicios\\SopaLetras\\Contador.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-09T08:00:01.401Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "CargarEscenasAleatorias.cs",
+              "DocumentMoniker": "C:\\GitHub\\ProyectoAlzAware\\AlzAware\\Assets\\Scripts\\Controladores\\CargarEscenasAleatorias.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Controladores\\CargarEscenasAleatorias.cs",
+              "ToolTip": "C:\\GitHub\\ProyectoAlzAware\\AlzAware\\Assets\\Scripts\\Controladores\\CargarEscenasAleatorias.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Controladores\\CargarEscenasAleatorias.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-09T07:19:51.132Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "PalabraComprobar.cs",
               "DocumentMoniker": "C:\\GitHub\\ProyectoAlzAware\\AlzAware\\Assets\\Scripts\\Ejercicios\\SopaLetras\\PalabraComprobar.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Ejercicios\\SopaLetras\\PalabraComprobar.cs",
@@ -66,25 +100,23 @@
               "RelativeToolTip": "Assets\\Scripts\\Ejercicios\\SopaLetras\\PalabraComprobar.cs",
               "ViewState": "AQIAAJUAAAAAAAAAAAAAwLUAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-03T07:43:26.208Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-03T07:43:26.208Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "ControladorMenus.cs",
               "DocumentMoniker": "C:\\GitHub\\ProyectoAlzAware\\AlzAware\\Assets\\Scripts\\Controladores\\ControladorMenus.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Controladores\\ControladorMenus.cs",
               "ToolTip": "C:\\GitHub\\ProyectoAlzAware\\AlzAware\\Assets\\Scripts\\Controladores\\ControladorMenus.cs",
               "RelativeToolTip": "Assets\\Scripts\\Controladores\\ControladorMenus.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAgwCMAAAAFAAAA",
+              "ViewState": "AQIAAEoAAAAAAAAAAAAiwGoAAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-04T08:14:21.153Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-04T08:14:21.153Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "BusquedaPalabraLista.cs",
               "DocumentMoniker": "C:\\GitHub\\ProyectoAlzAware\\AlzAware\\Assets\\Scripts\\Ejercicios\\SopaLetras\\BusquedaPalabraLista.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Ejercicios\\SopaLetras\\BusquedaPalabraLista.cs",
@@ -92,12 +124,11 @@
               "RelativeToolTip": "Assets\\Scripts\\Ejercicios\\SopaLetras\\BusquedaPalabraLista.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAAE8AAABrAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-03T08:12:56.502Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-03T08:12:56.502Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "BusquedaPalabra.cs",
               "DocumentMoniker": "C:\\GitHub\\ProyectoAlzAware\\AlzAware\\Assets\\Scripts\\Ejercicios\\SopaLetras\\BusquedaPalabra.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Ejercicios\\SopaLetras\\BusquedaPalabra.cs",
@@ -105,12 +136,11 @@
               "RelativeToolTip": "Assets\\Scripts\\Ejercicios\\SopaLetras\\BusquedaPalabra.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-03T08:12:04.303Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-03T08:12:04.303Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "EventosJuego.cs",
               "DocumentMoniker": "C:\\GitHub\\ProyectoAlzAware\\AlzAware\\Assets\\Scripts\\Ejercicios\\SopaLetras\\EventosJuego.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Ejercicios\\SopaLetras\\EventosJuego.cs",
@@ -118,12 +148,11 @@
               "RelativeToolTip": "Assets\\Scripts\\Ejercicios\\SopaLetras\\EventosJuego.cs",
               "ViewState": "AQIAADQAAAAAAAAAAAAUwFAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-03T07:27:05.733Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-03T07:27:05.733Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "RedCuadrada.cs",
               "DocumentMoniker": "C:\\GitHub\\ProyectoAlzAware\\AlzAware\\Assets\\Scripts\\Ejercicios\\SopaLetras\\RedCuadrada.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Ejercicios\\SopaLetras\\RedCuadrada.cs",
@@ -135,7 +164,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "RedPalabras.cs",
               "DocumentMoniker": "C:\\GitHub\\ProyectoAlzAware\\AlzAware\\Assets\\Scripts\\Ejercicios\\SopaLetras\\RedPalabras.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Ejercicios\\SopaLetras\\RedPalabras.cs",
@@ -143,12 +172,11 @@
               "RelativeToolTip": "Assets\\Scripts\\Ejercicios\\SopaLetras\\RedPalabras.cs",
               "ViewState": "AQIAAG4AAAAAAAAAAAAIwI4AAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-01T08:12:50.068Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-01T08:12:50.068Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "DibujoAlfabeto.cs",
               "DocumentMoniker": "C:\\GitHub\\ProyectoAlzAware\\AlzAware\\Assets\\Scripts\\Ejercicios\\SopaLetras\\Editor\\DibujoAlfabeto.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Ejercicios\\SopaLetras\\Editor\\DibujoAlfabeto.cs",
@@ -160,7 +188,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "DatosAlfabeto.cs",
               "DocumentMoniker": "C:\\GitHub\\ProyectoAlzAware\\AlzAware\\Assets\\Scripts\\Ejercicios\\SopaLetras\\ScriptableObjects\\DatosAlfabeto.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Ejercicios\\SopaLetras\\ScriptableObjects\\DatosAlfabeto.cs",
@@ -172,7 +200,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "DibujoTablero.cs",
               "DocumentMoniker": "C:\\GitHub\\ProyectoAlzAware\\AlzAware\\Assets\\Scripts\\Ejercicios\\SopaLetras\\Editor\\DibujoTablero.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Ejercicios\\SopaLetras\\Editor\\DibujoTablero.cs",
@@ -184,7 +212,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "DatosTablero.cs",
               "DocumentMoniker": "C:\\GitHub\\ProyectoAlzAware\\AlzAware\\Assets\\Scripts\\Ejercicios\\SopaLetras\\ScriptableObjects\\DatosTablero.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Ejercicios\\SopaLetras\\ScriptableObjects\\DatosTablero.cs",
@@ -192,8 +220,7 @@
               "RelativeToolTip": "Assets\\Scripts\\Ejercicios\\SopaLetras\\ScriptableObjects\\DatosTablero.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-01T06:34:41.324Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-01T06:34:41.324Z"
             }
           ]
         }

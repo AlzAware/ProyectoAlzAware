@@ -42,7 +42,7 @@ public class ControladorMenuPrincipal : MonoBehaviour
     public void IrAEstadisticas()
     {
         SceneManager.LoadScene("EstadisticasGlobales");
-        
+
     }
 
     // Método utilizado para saltar a la escena de Ajustes
@@ -86,6 +86,8 @@ public class ControladorMenuPrincipal : MonoBehaviour
     {
         SceneManager.LoadScene("EjercicioSeleccionado");
     }
+   
+          
 
     // Método utilizado para saltar a la escena de las Estadísticas del Ejercicio Seleccionado
     public void IrAEstadisticasEjercicioSeleccionado()
