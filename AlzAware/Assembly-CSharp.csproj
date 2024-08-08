@@ -67,6 +67,7 @@
     <Compile Include="Assets\Scripts\Ejercicios\SopaLetras\ScriptableObjects\DatosNivelJuego.cs" />
     <Compile Include="Assets\Scripts\Ejercicios\SopaLetras\EventosJuego.cs" />
     <Compile Include="Assets\Scripts\Ejercicios\SopaLetras\RedPalabras.cs" />
+    <Compile Include="Assets\Scripts\Ejercicios\BuscaObjetos\SeleccionObjetos.cs" />
     <Compile Include="Assets\Scripts\Ejercicios\SopaLetras\RedCuadrada.cs" />
     <Compile Include="Assets\Scripts\Ejercicios\SopaLetras\PalabraComprobar.cs" />
     <Compile Include="Assets\Scripts\Servidor\CrearCuenta.cs" />
@@ -75,6 +76,7 @@
     <Compile Include="Assets\Scripts\Ejercicios\SopaLetras\ScriptableObjects\DatosJuego.cs" />
     <Compile Include="Assets\Scripts\Ejercicios\SopaLetras\Contador.cs" />
     <Compile Include="Assets\Scripts\Controladores\ControladorSplash.cs" />
+    <Compile Include="Assets\Scripts\Ejercicios\BuscaObjetos\ActivarPopUp.cs" />
     <Compile Include="Assets\Scripts\Controladores\ControladorMenus.cs" />
   </ItemGroup>
   <ItemGroup>

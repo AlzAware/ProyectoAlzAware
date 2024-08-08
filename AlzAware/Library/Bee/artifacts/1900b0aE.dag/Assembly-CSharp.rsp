@@ -381,6 +381,8 @@
 "Assets/Scripts/Controladores/CargarEscenasAleatorias.cs"
 "Assets/Scripts/Controladores/ControladorMenus.cs"
 "Assets/Scripts/Controladores/ControladorSplash.cs"
+"Assets/Scripts/Ejercicios/BuscaObjetos/ActivarPopUp.cs"
+"Assets/Scripts/Ejercicios/BuscaObjetos/SeleccionObjetos.cs"
 "Assets/Scripts/Ejercicios/SopaLetras/BusquedaPalabra.cs"
 "Assets/Scripts/Ejercicios/SopaLetras/BusquedaPalabraLista.cs"
 "Assets/Scripts/Ejercicios/SopaLetras/Contador.cs"
