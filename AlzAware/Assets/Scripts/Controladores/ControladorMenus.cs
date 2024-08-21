@@ -118,4 +118,10 @@ public class ControladorMenuPrincipal : MonoBehaviour
     {
         SceneManager.LoadScene("Ajustes_Sonido");
     }
+
+    // Método utilizado para saltar a la escena de Ajustes de Sonido
+    public void IrAJuegoParejas()
+    {
+        SceneManager.LoadScene("JuegoParejas");
+    }
 }

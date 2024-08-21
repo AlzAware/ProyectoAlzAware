@@ -12,7 +12,8 @@ C:/xampp/htdocs/  Lo copiamos ahi dentro para poder usarlo en Unity a la hora de
 
 ------------------------------------------------------------------------------------------------------------
 creacionBaseDeDatos.sql - Este archivo contiene un script SQL para la creación de la base de datos que 
-también introduce 4 usuarios con sus contraseñas. Este script tienes que usarlo desde phpMyAdmin, para ello:
+también introduce 4 usuarios con sus contraseñas y correos electrónicos. Este script tienes que usarlo desde
+phpMyAdmin, para ello:
 
 - Ponemos en el navegador: http://localhost/dashboard/
 - Pulsamos el botón de "phpMyAdmin" que se encuentra arriba del todo.

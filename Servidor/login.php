@@ -1,8 +1,8 @@
 <?php
 // Conexión a la base de datos
 $servername = "localhost";
-$username = "root"; // Cambiar por tu nombre de usuario de MySQL
-$password = ""; // Cambiar por tu contraseña de MySQL
+$username = "root";
+$password = "";
 $database = "servidor";
 
 $conn = new mysqli($servername, $username, $password, $database);
@@ -17,7 +17,7 @@ $usuario = $_POST['usuario'];
 $contrasena = $_POST['contrasena'];
 
 // Consulta para comprobar si el usuario y la contraseña existen
-$sql = "SELECT * FROM usuarios WHERE usuario='$usuario' AND contrasena='$contrasena'";
+$sql = "SELECT * FROM usuarios WHERE (usuario='$usuario' OR correoElectronico='$usuario') AND contrasena='$contrasena'";
 $result = $conn->query($sql);
 
 if ($result->num_rows > 0) {

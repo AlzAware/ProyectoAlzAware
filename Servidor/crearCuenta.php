@@ -15,6 +15,7 @@ if ($conn->connect_error) {
 // Obtener datos de Unity
 $usuario = $_POST['usuario'];
 $contrasena = $_POST['contrasena'];
+$correo = $_POST['correo'];
 
 // Comprobar si el usuario ya existe en la base de datos
 $sql_check = "SELECT * FROM usuarios WHERE usuario='$usuario'";
@@ -25,7 +26,7 @@ if ($result_check->num_rows > 0) {
     echo "exist";
 } else {
     // Si el usuario no existe, lo insertamos en la base de datos
-    $sql_insert = "INSERT INTO usuarios (usuario, contrasena) VALUES ('$usuario', '$contrasena')";
+    $sql_insert = "INSERT INTO usuarios (usuario, contrasena, correoElectronico) VALUES ('$usuario', '$contrasena', '$correo')";
     if ($conn->query($sql_insert) === TRUE) {
         echo "success"; // Registro exitoso
     } else {

@@ -104,4 +104,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Ejercicios/BuscaObjetos/BuscaObjetos4.unity
     guid: c8b23d8027d63014a9e04b272f1eb556
+  - enabled: 1
+    path: Assets/Scenes/Ejercicios/JuegoParejas/JuegoParejas.unity
+    guid: ab0fff40fc385c44ea3fce40ab936f8b
   m_configObjects: {}

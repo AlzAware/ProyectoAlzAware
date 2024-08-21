@@ -1,26 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\User\\Documents\\GitHub\\ProyectoAlzAware\\AlzAware\\",
+  "WorkspaceRootPath": "E:\\DISE\u00D1O DE JUEGOS\\Mis cosas\\ProyectoAlzAware\\AlzAware\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4217D28B-1672-C9D0-35EA-979224E3899B}|Assembly-CSharp.csproj|c:\\users\\user\\documents\\github\\proyectoalzaware\\alzaware\\assets\\scripts\\controladores\\cargarescenasaleatorias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4217D28B-1672-C9D0-35EA-979224E3899B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\controladores\\cargarescenasaleatorias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4217D28B-1672-C9D0-35EA-979224E3899B}|Assembly-CSharp.csproj|C:\\Users\\User\\Documents\\GitHub\\ProyectoAlzAware\\AlzAware\\assets\\scripts\\controladores\\controladormenus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4217D28B-1672-C9D0-35EA-979224E3899B}|Assembly-CSharp.csproj|E:\\DISE\u00D1O DE JUEGOS\\Mis cosas\\ProyectoAlzAware\\AlzAware\\assets\\scripts\\controladores\\controladormenus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4217D28B-1672-C9D0-35EA-979224E3899B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\controladores\\controladormenus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4217D28B-1672-C9D0-35EA-979224E3899B}|Assembly-CSharp.csproj|C:\\Users\\User\\Documents\\GitHub\\ProyectoAlzAware\\AlzAware\\assets\\scripts\\ejercicios\\buscaobjetos\\seleccionobjetos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4217D28B-1672-C9D0-35EA-979224E3899B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ejercicios\\buscaobjetos\\seleccionobjetos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4217D28B-1672-C9D0-35EA-979224E3899B}|Assembly-CSharp.csproj|C:\\Users\\User\\Documents\\GitHub\\ProyectoAlzAware\\AlzAware\\assets\\scripts\\ejercicios\\buscaobjetos\\activarpopup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4217D28B-1672-C9D0-35EA-979224E3899B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ejercicios\\buscaobjetos\\activarpopup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4217D28B-1672-C9D0-35EA-979224E3899B}|Assembly-CSharp.csproj|C:\\Users\\User\\Documents\\GitHub\\ProyectoAlzAware\\AlzAware\\assets\\scripts\\ejercicios\\juegoparejas\\card.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4217D28B-1672-C9D0-35EA-979224E3899B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ejercicios\\juegoparejas\\card.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,70 +14,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Card.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\ProyectoAlzAware\\AlzAware\\Assets\\Scripts\\Ejercicios\\JuegoParejas\\Card.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Ejercicios\\JuegoParejas\\Card.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\ProyectoAlzAware\\AlzAware\\Assets\\Scripts\\Ejercicios\\JuegoParejas\\Card.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Ejercicios\\JuegoParejas\\Card.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-20T15:27:28.184Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "CargarEscenasAleatorias.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\ProyectoAlzAware\\AlzAware\\Assets\\Scripts\\Controladores\\CargarEscenasAleatorias.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Controladores\\CargarEscenasAleatorias.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\ProyectoAlzAware\\AlzAware\\Assets\\Scripts\\Controladores\\CargarEscenasAleatorias.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Controladores\\CargarEscenasAleatorias.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABMAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-08T08:37:19.45Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "ControladorMenus.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\ProyectoAlzAware\\AlzAware\\Assets\\Scripts\\Controladores\\ControladorMenus.cs",
+              "DocumentMoniker": "E:\\DISE\u00D1O DE JUEGOS\\Mis cosas\\ProyectoAlzAware\\AlzAware\\Assets\\Scripts\\Controladores\\ControladorMenus.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Controladores\\ControladorMenus.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\ProyectoAlzAware\\AlzAware\\Assets\\Scripts\\Controladores\\ControladorMenus.cs",
+              "ToolTip": "E:\\DISE\u00D1O DE JUEGOS\\Mis cosas\\ProyectoAlzAware\\AlzAware\\Assets\\Scripts\\Controladores\\ControladorMenus.cs",
               "RelativeToolTip": "Assets\\Scripts\\Controladores\\ControladorMenus.cs",
-              "ViewState": "AQIAAC8AAAAAAAAAAAAswAAAAAAAAAAA",
+              "ViewState": "AQIAAFsAAAAAAAAAAAAUwHwAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-08T08:36:08.144Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ActivarPopUp.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\ProyectoAlzAware\\AlzAware\\Assets\\Scripts\\Ejercicios\\BuscaObjetos\\ActivarPopUp.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Ejercicios\\BuscaObjetos\\ActivarPopUp.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\ProyectoAlzAware\\AlzAware\\Assets\\Scripts\\Ejercicios\\BuscaObjetos\\ActivarPopUp.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Ejercicios\\BuscaObjetos\\ActivarPopUp.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAAwB4AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-08T08:11:23.691Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "SeleccionObjetos.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\ProyectoAlzAware\\AlzAware\\Assets\\Scripts\\Ejercicios\\BuscaObjetos\\SeleccionObjetos.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Ejercicios\\BuscaObjetos\\SeleccionObjetos.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\ProyectoAlzAware\\AlzAware\\Assets\\Scripts\\Ejercicios\\BuscaObjetos\\SeleccionObjetos.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Ejercicios\\BuscaObjetos\\SeleccionObjetos.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAAQwCsAAABJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-08T08:10:41.419Z",
               "EditorCaption": ""
             }
           ]

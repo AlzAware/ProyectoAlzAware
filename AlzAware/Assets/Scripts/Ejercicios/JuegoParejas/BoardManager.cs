@@ -29,7 +29,6 @@ public class BoardManager : MonoBehaviour
                 GameObject card = Instantiate(cardPrefab, pos, Quaternion.identity);
                 Card cardScript = card.GetComponent<Card>();
                 cardScript.cardImage = GetRandomCard();  // Asigna la imagen correcta a cada carta
-                Debug.Log("Asignado sprite: " + cardScript.cardImage.name);
             }
         }
     }
