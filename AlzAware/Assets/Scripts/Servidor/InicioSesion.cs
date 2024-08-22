@@ -17,6 +17,29 @@ public class InicioSesion : MonoBehaviour
     [SerializeField] Button botonLogIn;
     [SerializeField] string url;
 
+    // Referencias a los objetos y sus animaciones
+    [SerializeField] GameObject logo;
+    [SerializeField] GameObject panelAzul;
+    [SerializeField] Animator logoAnimator;
+    [SerializeField] Animator panelAzulAnimator;
+
+    // Booleano estático para controlar la reproducción de las animaciones
+    private static bool animacionesReproducidas = false;
+
+    void Start()
+    {
+        // Verificar si las animaciones ya han sido reproducidas
+        if (!animacionesReproducidas)
+        {
+            // Reproducir las animaciones la primera vez que se carga la escena
+            logoAnimator.Play("EntradaLogo");
+            panelAzulAnimator.Play("EntradaPanelAzul");
+
+            // Marcar que las animaciones ya se han reproducido
+            animacionesReproducidas = true;
+        }
+    }
+
     // Método que se llama cuando pulsamos el botón de LogIn
     public void OnLoginButtonClicked()
     {

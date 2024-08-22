@@ -465,14 +465,14 @@ RectTransform:
   m_GameObject: {fileID: 275940876}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.21593976, y: 0.21593976, z: 0.21593976}
+  m_LocalScale: {x: 0.21593979, y: 1.1518627, z: 0.21593976}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1222559673}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 61.3, y: -0.2}
+  m_AnchoredPosition: {x: 61.299957, y: -1.066803}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &275940878
@@ -771,8 +771,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 566623944}
-  - component: {fileID: 566623943}
   - component: {fileID: 566623942}
+  - component: {fileID: 566623945}
   m_Layer: 0
   m_Name: ControladorCrearCuenta
   m_TagString: Untagged
@@ -796,21 +796,10 @@ MonoBehaviour:
   panelCrearCuenta: {fileID: 2035884785}
   nombreUsuario: {fileID: 394472546}
   contrasena: {fileID: 793141594}
+  correo: {fileID: 0}
   mensajesError: {fileID: 615024621}
   botonRegistrar: {fileID: 1222559670}
   url: http://localhost/crearCuenta.php
---- !u!114 &566623943
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 566623941}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 55ce6f6b3d3edf14ca32a821767422cf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &566623944
 Transform:
   m_ObjectHideFlags: 0
@@ -826,6 +815,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &566623945
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 566623941}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 138f8c650dddca84bb0e7bf56cb44bfa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &615024618
 GameObject:
   m_ObjectHideFlags: 0
@@ -1019,7 +1020,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 8c4d263d677d8104bb8797ed01f67596, type: 3}
+  m_Sprite: {fileID: 21300000, guid: be4fb6d53fb1f1e4cabfe2de3a12db77, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1618,7 +1619,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 86b891e792794c049a080a4bf32b7438, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 682d6394e950a2a4a986906b08ea5973, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2188,15 +2189,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.44313726, g: 0.77254903, b: 0.8235294, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -5177388603050735206, guid: cc35afd292fc349128b36a291fb3a165, type: 3}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: 4fd92a1f47729be488b944491b32521e, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -2222,7 +2223,7 @@ RectTransform:
   m_GameObject: {fileID: 1222559669}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 4.46704, y: 7.1904063, z: 4.46704}
+  m_LocalScale: {x: 4.269173, y: 7.9120355, z: 3.7123246}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1589269797}
@@ -2231,7 +2232,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -378.7849}
+  m_AnchoredPosition: {x: -7, y: -388}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1289815259
@@ -2814,16 +2815,16 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1589269796}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.83206, y: 0.83206, z: 0.83206}
+  m_LocalScale: {x: 0.87062436, y: 0.75617033, z: 1.0012177}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1222559673}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 1.6396786, y: 1.1645203}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1589269798
@@ -3345,7 +3346,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 462c3bca61bb6cc488ca1ee0482eed60, type: 3}
+  m_Sprite: {fileID: 21300000, guid: c24143ddd877c51469fc90493ed40074, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3488,7 +3489,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 338177258cdc9d049a29d5f70a942330, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 3b6526b5df36e934a802c1e0cb3603d1, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3563,7 +3564,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 51d3cf0303e2d0d4bb25cb66e67069e5, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 31e2e6c5b9413764db016c25a7e3276c, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3663,8 +3664,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 566623943}
-        m_TargetAssemblyTypeName: ControladorMenuPrincipal, Assembly-CSharp
+      - m_Target: {fileID: 566623945}
+        m_TargetAssemblyTypeName: ControladorCuentas, Assembly-CSharp
         m_MethodName: IrALogin
         m_Mode: 1
         m_Arguments:
@@ -3740,7 +3741,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 51d3cf0303e2d0d4bb25cb66e67069e5, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 31e2e6c5b9413764db016c25a7e3276c, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3977,7 +3978,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 51d3cf0303e2d0d4bb25cb66e67069e5, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 31e2e6c5b9413764db016c25a7e3276c, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

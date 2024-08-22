@@ -257,6 +257,50 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 184759854}
   m_CullTransparentMesh: 1
+--- !u!1 &956716676
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 956716678}
+  - component: {fileID: 956716677}
+  m_Layer: 0
+  m_Name: ControladorAjustes
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &956716677
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 956716676}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d139e29e78100c141a54d4dccfd90a0a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &956716678
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 956716676}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 310.85385, y: 493.98956, z: -2.54213}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1136100158
 GameObject:
   m_ObjectHideFlags: 0
@@ -340,9 +384,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 6414731937525127504}
-        m_TargetAssemblyTypeName: ControladorMenuPrincipal, Assembly-CSharp
-        m_MethodName: IrAAjustesGeneral
+      - m_Target: {fileID: 956716677}
+        m_TargetAssemblyTypeName: ControladorAjustes, Assembly-CSharp
+        m_MethodName: IrAAjustesGenerales
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1009,8 +1053,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 6414731937525127504}
-        m_TargetAssemblyTypeName: ControladorMenuPrincipal, Assembly-CSharp
+      - m_Target: {fileID: 956716677}
+        m_TargetAssemblyTypeName: ControladorAjustes, Assembly-CSharp
         m_MethodName: IrAAjustesSonido
         m_Mode: 1
         m_Arguments:
@@ -1302,9 +1346,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 6414731937525127504}
-        m_TargetAssemblyTypeName: ControladorMenuPrincipal, Assembly-CSharp
-        m_MethodName: IrAMenuPrincipal
+      - m_Target: {fileID: 956716677}
+        m_TargetAssemblyTypeName: ControladorAjustes, Assembly-CSharp
+        m_MethodName: VolverMenuPrincipal
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1435,8 +1479,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 6414731937525127504}
-        m_TargetAssemblyTypeName: ControladorMenuPrincipal, Assembly-CSharp
+      - m_Target: {fileID: 956716677}
+        m_TargetAssemblyTypeName: ControladorAjustes, Assembly-CSharp
         m_MethodName: IrAAjustesCuenta
         m_Mode: 1
         m_Arguments:
@@ -1568,9 +1612,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 6414731937525127504}
-        m_TargetAssemblyTypeName: ControladorMenuPrincipal, Assembly-CSharp
-        m_MethodName: IrAAjustesQuitarAnuncios
+      - m_Target: {fileID: 956716677}
+        m_TargetAssemblyTypeName: ControladorAjustes, Assembly-CSharp
+        m_MethodName: IrAQuitarAnuncios
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1859,74 +1903,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
---- !u!1001 &6414731937525127503
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 1213867865982427990, guid: 6d11de52c8e979b4d8ab99641b474de6, type: 3}
-      propertyPath: m_Name
-      value: ControladorMenus
-      objectReference: {fileID: 0}
-    - target: {fileID: 8678522775748256667, guid: 6d11de52c8e979b4d8ab99641b474de6, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 288.0902
-      objectReference: {fileID: 0}
-    - target: {fileID: 8678522775748256667, guid: 6d11de52c8e979b4d8ab99641b474de6, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 1000.18115
-      objectReference: {fileID: 0}
-    - target: {fileID: 8678522775748256667, guid: 6d11de52c8e979b4d8ab99641b474de6, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -9.643045
-      objectReference: {fileID: 0}
-    - target: {fileID: 8678522775748256667, guid: 6d11de52c8e979b4d8ab99641b474de6, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8678522775748256667, guid: 6d11de52c8e979b4d8ab99641b474de6, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8678522775748256667, guid: 6d11de52c8e979b4d8ab99641b474de6, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8678522775748256667, guid: 6d11de52c8e979b4d8ab99641b474de6, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8678522775748256667, guid: 6d11de52c8e979b4d8ab99641b474de6, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8678522775748256667, guid: 6d11de52c8e979b4d8ab99641b474de6, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8678522775748256667, guid: 6d11de52c8e979b4d8ab99641b474de6, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 6d11de52c8e979b4d8ab99641b474de6, type: 3}
---- !u!114 &6414731937525127504 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 226293417963325899, guid: 6d11de52c8e979b4d8ab99641b474de6, type: 3}
-  m_PrefabInstance: {fileID: 6414731937525127503}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 55ce6f6b3d3edf14ca32a821767422cf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -1934,4 +1910,4 @@ SceneRoots:
   - {fileID: 1768694837}
   - {fileID: 2087228234}
   - {fileID: 1706328556}
-  - {fileID: 6414731937525127503}
+  - {fileID: 956716678}

@@ -10,7 +10,7 @@ public class ControladorSplash : MonoBehaviour
 
     void Start()
     {
-        logo = GameObject.Find("Logo");
+        logo = GameObject.Find("Splash");
         logoAnimator = logo.GetComponent<Animator>();
 
         // Llama a la función para cambiar la escena después de 8 segundos

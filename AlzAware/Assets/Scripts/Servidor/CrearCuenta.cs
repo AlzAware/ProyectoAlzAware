@@ -10,6 +10,7 @@ public class CrearCuenta : MonoBehaviour
     [SerializeField] GameObject panelCrearCuenta;
     [SerializeField] TMP_InputField nombreUsuario;
     [SerializeField] TMP_InputField contrasena;
+    [SerializeField] TMP_InputField correo;
     [SerializeField] TMP_Text mensajesError;
     [SerializeField] Button botonRegistrar;
     [SerializeField] string url;
@@ -32,6 +33,7 @@ public class CrearCuenta : MonoBehaviour
         // Añadimos al WWWForm el usuario y contraseña que se han introducido
         form.AddField("usuario", nombreUsuario.text);
         form.AddField("contrasena", contrasena.text);
+        form.AddField("correo", correo.text);
 
         using (WWW w = new WWW(url, form))
         {

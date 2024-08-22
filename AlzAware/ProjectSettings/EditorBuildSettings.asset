@@ -18,7 +18,7 @@ EditorBuildSettings:
     path: Assets/Scenes/MenuPrincipal.unity
     guid: b71d40e3c50b81241b88eb57268f7184
   - enabled: 1
-    path: Assets/Scenes/ActualizarAPro.unity
+    path: Assets/Scenes/Info.unity
     guid: 8d45af66b2e42244fa22563d89b03ff1
   - enabled: 1
     path: Assets/Scenes/Ajustes.unity
@@ -45,16 +45,16 @@ EditorBuildSettings:
     path: Assets/Scenes/Ajustes/Ajustes_Sonido.unity
     guid: 1ca13bcb672daa74f8f8e4606e0785c2
   - enabled: 1
-    path: Assets/Scenes/Diarios/EjercicioAleatorio_1.unity
+    path: Assets/Scenes/Ejercicios Diarios/EjercicioAleatorio_1.unity
     guid: 831556589b6375d49a192b9462eeb904
   - enabled: 1
-    path: Assets/Scenes/Diarios/EjercicioAleatorio_2.unity
+    path: Assets/Scenes/Ejercicios Diarios/EjercicioAleatorio_2.unity
     guid: 1c55911e1fb6e0f45bb4d82f4e3195e6
   - enabled: 1
-    path: Assets/Scenes/Diarios/EjercicioAleatorio_3.unity
+    path: Assets/Scenes/Ejercicios Diarios/EjercicioAleatorio_3.unity
     guid: ddb1dc2ad592d15459da8d0897f1aec9
   - enabled: 1
-    path: Assets/Scenes/Diarios/EstadisticasDiarias.unity
+    path: Assets/Scenes/Ejercicios Diarios/EstadisticasDiarias.unity
     guid: f85bf718cd961474399f6cefb8de7404
   - enabled: 1
     path: Assets/Scenes/Ejercicios/EjercicioSeleccionado.unity
@@ -107,4 +107,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Ejercicios/JuegoParejas/JuegoParejas.unity
     guid: ab0fff40fc385c44ea3fce40ab936f8b
+  - enabled: 1
+    path: Assets/Scenes/Ejercicios/Puzzle/Puzzle.unity
+    guid: 6458ecdf2fb783f40a3e0b8ec03552c0
   m_configObjects: {}

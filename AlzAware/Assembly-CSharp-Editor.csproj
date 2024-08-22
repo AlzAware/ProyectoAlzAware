@@ -60,6 +60,7 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.24f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\Ejercicios\Puzzle\Editor\ShapeDataDrawer.cs" />
     <Compile Include="Assets\Scripts\Ejercicios\SopaLetras\Editor\DibujoTablero.cs" />
     <Compile Include="Assets\Scripts\Ejercicios\SopaLetras\Editor\DibujoAlfabeto.cs" />
   </ItemGroup>

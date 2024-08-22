@@ -180,7 +180,7 @@ GameObject:
   - component: {fileID: 920212766}
   - component: {fileID: 920212768}
   m_Layer: 0
-  m_Name: Logo
+  m_Name: Splash
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -448,5 +448,5 @@ SceneRoots:
   m_Roots:
   - {fileID: 1209596807}
   - {fileID: 1705519224}
-  - {fileID: 360526634}
   - {fileID: 920212765}
+  - {fileID: 360526634}
