@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/Cuenta/Login.unity
+- path: Assets/Scenes/Ejercicios/Puzzle/Puzzle.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
