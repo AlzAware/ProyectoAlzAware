@@ -395,6 +395,7 @@
 "Assets/Scripts/Ejercicios/JuegoParejas/Card.cs"
 "Assets/Scripts/Ejercicios/JuegoParejas/GameManager.cs"
 "Assets/Scripts/Ejercicios/Puzzle/Config.cs"
+"Assets/Scripts/Ejercicios/Puzzle/ControladorPuzzle.cs"
 "Assets/Scripts/Ejercicios/Puzzle/Game/ActiveSquareImageSelector.cs"
 "Assets/Scripts/Ejercicios/Puzzle/Game/GameOverPopUp.cs"
 "Assets/Scripts/Ejercicios/Puzzle/Game/Grid/Grid.cs"

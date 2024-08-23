@@ -96,6 +96,7 @@
     <Compile Include="Assets\Scripts\Controladores\ControladorCuentas.cs" />
     <Compile Include="Assets\Scripts\Ejercicios\Puzzle\MenuButtons.cs" />
     <Compile Include="Assets\Scripts\Ejercicios\Puzzle\Shape\ShapeData.cs" />
+    <Compile Include="Assets\Scripts\Ejercicios\Puzzle\ControladorPuzzle.cs" />
     <Compile Include="Assets\Scripts\Ejercicios\Puzzle\Shape\ShapeSquare.cs" />
     <Compile Include="Assets\Scripts\Ejercicios\Puzzle\Game\Scores.cs" />
     <Compile Include="Assets\Scripts\Ejercicios\Puzzle\Game\GameOverPopUp.cs" />
