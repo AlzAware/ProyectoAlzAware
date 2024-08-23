@@ -117,7 +117,7 @@ public class ControladorMenuPrincipal : MonoBehaviour
         menu.SetActive(false);
 
         // Esperar a que todas las animaciones terminen
-        yield return new WaitForSeconds(3f);
+        yield return new WaitForSeconds(2.5f);
 
         // Cambiar a la escena "EjerciciosDiarios"
         SceneManager.LoadScene("EjerciciosDiarios");
