@@ -66,7 +66,7 @@ public class BusquedaPalabraLista : MonoBehaviour
         return true;
 
     }
-    //se obtienen las palabras creadas y se colocan segun el ajuste del area
+    //se obtienen las palabras creadas y se colocan segun la escala de la cuadricula
     private void CreateWordsObjects()
     {
         var squareScale = GetSquareScale(new Vector3(1f, 1f, 0.1f));
@@ -81,7 +81,7 @@ public class BusquedaPalabraLista : MonoBehaviour
 
         }
     }
-    //Se obtiene la escala del area
+    //Se obtiene la escala de la cuadricula
     private Vector3 GetSquareScale(Vector3 defaultScale)
     {
         var finalScale = defaultScale;
@@ -101,7 +101,7 @@ public class BusquedaPalabraLista : MonoBehaviour
         }
         return finalScale;
     }
-    //Se reduce la escala para ajustarlo al area
+    //Se reduce la escala para ajustarlo a la cuadricula
     private bool ShouldScaleDown(Vector3 targetScale)
     {
         var squareRect = searchingWordPrefab.GetComponent<RectTransform>();
@@ -113,7 +113,7 @@ public class BusquedaPalabraLista : MonoBehaviour
         squareSize.y = squareRect.rect.height * targetScale.y + offset;
 
         var totalSquareHeight = squareSize.y * _rows;
-        //Nos aseguramos que todos lo cuadrados quepan en area padre rectangular
+        //Nos aseguramos que todos las celdas quepan en la cuadricula inicial
         if (totalSquareHeight > parentRect.rect.height)
         {
             while (totalSquareHeight > parentRect.rect.height)
@@ -132,7 +132,7 @@ public class BusquedaPalabraLista : MonoBehaviour
 
         return false;
     }
-    //Poner la Posicion establecida de la palabra
+    //Metodo que coloca la palabra en la posicion establecida
     private void SetWordsPosition()
     {
         var squareRect = _words[0].GetComponent<RectTransform>();
@@ -161,7 +161,7 @@ public class BusquedaPalabraLista : MonoBehaviour
         }
     }
 
-    //Obtener la primera posicion del area para meter los cuadrados de palabras
+    //Obtener la primera posicion de las celda para ajustar el resto a la cuadricula
     private Vector2 GetFirstSquarePosition()
     {
         var startPosition = new Vector2(0f, transform.position.y);

@@ -9,6 +9,8 @@ public class DatosTablero : ScriptableObject
 {
 
     [System.Serializable]
+   
+    //Representa la palabra que se busca en la pizarra
     public class SearchingWord
     {
         [HideInInspector]
@@ -16,6 +18,7 @@ public class DatosTablero : ScriptableObject
         public string Word;
     }
     [System.Serializable]
+    //Representa una fila de la pizarra
     public class BoardRow
     {
         public int Size;
@@ -43,13 +46,15 @@ public class DatosTablero : ScriptableObject
         }
 
     }
-
+    //Establece a 0 el numero de columnas y filas de la pizarra
     public int Columns = 0;
     public int Rows = 0;
-
+    //Representa la pizarra
     public BoardRow[] Board;
+    //Crea una lista para añadir las palabras de las sopa de letras
     public List<SearchingWord> SearchWords = new List<SearchingWord>();
 
+    //Metodo que limpia la pìzarra si al recorrer la lista Searchword no se ha encontrado ninguna palabra
     public void ClearData()
     {
         foreach (var word in SearchWords)
@@ -57,6 +62,7 @@ public class DatosTablero : ScriptableObject
             word.Found = false;
         }
     }
+    //Metodo que recorre toda las filas de la pizarra y llama al metodo ClearRow()
     public void ClearWithEmptyString()
     {
         for (int i = 0; i < Columns; i++)
@@ -64,6 +70,7 @@ public class DatosTablero : ScriptableObject
             Board[i].ClearRow();
         }
     }
+    //Metodo para inicializar una nueva pìzarra con el numero de columnas especificado.
     public void CreateNewBoard()
     {
         Board = new BoardRow[Columns];

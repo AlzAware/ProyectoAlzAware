@@ -7,6 +7,9 @@ using UnityEngine;
 public class DatosAlfabeto : ScriptableObject
 {
     [System.Serializable]
+
+
+    //Clase que asigna el formato de imagen de las letras cuando estan normales, seleccionada o ya comprobadas como correctas
     public class LetterData
     {
         public string letter;

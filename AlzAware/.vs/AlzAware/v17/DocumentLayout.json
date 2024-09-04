@@ -1,10 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\DISENODEJUEGOS\\Mis cosas\\ProyectoAlzAware\\AlzAware\\",
+  "WorkspaceRootPath": "C:\\GitHub\\ProyectoAlzAware\\AlzAware\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4217D28B-1672-C9D0-35EA-979224E3899B}|Assembly-CSharp.csproj|e:\\disenodejuegos\\mis cosas\\proyectoalzaware\\alzaware\\assets\\scripts\\controladores\\controladormenuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4217D28B-1672-C9D0-35EA-979224E3899B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\controladores\\controladormenuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4217D28B-1672-C9D0-35EA-979224E3899B}|Assembly-CSharp.csproj|c:\\github\\proyectoalzaware\\alzaware\\assets\\scripts\\ejerciciosjugables\\puzzle\\game\\scores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4217D28B-1672-C9D0-35EA-979224E3899B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ejerciciosjugables\\puzzle\\game\\scores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93DA724A-02DA-6551-8855-D3D3D2B38D25}|Assembly-CSharp-Editor.csproj|c:\\github\\proyectoalzaware\\alzaware\\assets\\scripts\\ejerciciosjugables\\sopaletras\\editor\\dibujotablero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93DA724A-02DA-6551-8855-D3D3D2B38D25}|Assembly-CSharp-Editor.csproj|solutionrelative:assets\\scripts\\ejerciciosjugables\\sopaletras\\editor\\dibujotablero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93DA724A-02DA-6551-8855-D3D3D2B38D25}|Assembly-CSharp-Editor.csproj|C:\\GitHub\\ProyectoAlzAware\\AlzAware\\assets\\scripts\\ejerciciosjugables\\sopaletras\\editor\\dibujoalfabeto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93DA724A-02DA-6551-8855-D3D3D2B38D25}|Assembly-CSharp-Editor.csproj|solutionrelative:assets\\scripts\\ejerciciosjugables\\sopaletras\\editor\\dibujoalfabeto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4217D28B-1672-C9D0-35EA-979224E3899B}|Assembly-CSharp.csproj|C:\\GitHub\\ProyectoAlzAware\\AlzAware\\assets\\scripts\\ejerciciosjugables\\sopaletras\\scriptableobjects\\datostablero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4217D28B-1672-C9D0-35EA-979224E3899B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ejerciciosjugables\\sopaletras\\scriptableobjects\\datostablero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\GitHub\\ProyectoAlzAware\\AlzAware\\Assets\\Scripts\\EjerciciosJugables\\SopaLetras\\ScriptableObjects\\DatosNivelJuego.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\EjerciciosJugables\\SopaLetras\\ScriptableObjects\\DatosNivelJuego.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,15 +35,64 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ControladorMenuPrincipal.cs",
-              "DocumentMoniker": "E:\\DISENODEJUEGOS\\Mis cosas\\ProyectoAlzAware\\AlzAware\\Assets\\Scripts\\Controladores\\ControladorMenuPrincipal.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Controladores\\ControladorMenuPrincipal.cs",
-              "ToolTip": "E:\\DISENODEJUEGOS\\Mis cosas\\ProyectoAlzAware\\AlzAware\\Assets\\Scripts\\Controladores\\ControladorMenuPrincipal.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Controladores\\ControladorMenuPrincipal.cs",
-              "ViewState": "AQIAAE0AAAAAAAAAAAA9wHcAAAArAAAA",
+              "Title": "Scores.cs",
+              "DocumentMoniker": "C:\\GitHub\\ProyectoAlzAware\\AlzAware\\Assets\\Scripts\\EjerciciosJugables\\Puzzle\\Game\\Scores.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\EjerciciosJugables\\Puzzle\\Game\\Scores.cs",
+              "ToolTip": "C:\\GitHub\\ProyectoAlzAware\\AlzAware\\Assets\\Scripts\\EjerciciosJugables\\Puzzle\\Game\\Scores.cs",
+              "RelativeToolTip": "Assets\\Scripts\\EjerciciosJugables\\Puzzle\\Game\\Scores.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-22T17:23:13.826Z",
+              "WhenOpened": "2024-09-04T17:04:28.588Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DibujoTablero.cs",
+              "DocumentMoniker": "C:\\GitHub\\ProyectoAlzAware\\AlzAware\\Assets\\Scripts\\EjerciciosJugables\\SopaLetras\\Editor\\DibujoTablero.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\EjerciciosJugables\\SopaLetras\\Editor\\DibujoTablero.cs",
+              "ToolTip": "C:\\GitHub\\ProyectoAlzAware\\AlzAware\\Assets\\Scripts\\EjerciciosJugables\\SopaLetras\\Editor\\DibujoTablero.cs",
+              "RelativeToolTip": "Assets\\Scripts\\EjerciciosJugables\\SopaLetras\\Editor\\DibujoTablero.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T16:43:28.38Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DibujoAlfabeto.cs",
+              "DocumentMoniker": "C:\\GitHub\\ProyectoAlzAware\\AlzAware\\Assets\\Scripts\\EjerciciosJugables\\SopaLetras\\Editor\\DibujoAlfabeto.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\EjerciciosJugables\\SopaLetras\\Editor\\DibujoAlfabeto.cs",
+              "ToolTip": "C:\\GitHub\\ProyectoAlzAware\\AlzAware\\Assets\\Scripts\\EjerciciosJugables\\SopaLetras\\Editor\\DibujoAlfabeto.cs",
+              "RelativeToolTip": "Assets\\Scripts\\EjerciciosJugables\\SopaLetras\\Editor\\DibujoAlfabeto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAB9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T16:41:39.718Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DatosTablero.cs",
+              "DocumentMoniker": "C:\\GitHub\\ProyectoAlzAware\\AlzAware\\Assets\\Scripts\\EjerciciosJugables\\SopaLetras\\ScriptableObjects\\DatosTablero.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\EjerciciosJugables\\SopaLetras\\ScriptableObjects\\DatosTablero.cs",
+              "ToolTip": "C:\\GitHub\\ProyectoAlzAware\\AlzAware\\Assets\\Scripts\\EjerciciosJugables\\SopaLetras\\ScriptableObjects\\DatosTablero.cs",
+              "RelativeToolTip": "Assets\\Scripts\\EjerciciosJugables\\SopaLetras\\ScriptableObjects\\DatosTablero.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAA9wEgAAABXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T16:27:12.134Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DatosNivelJuego.cs",
+              "DocumentMoniker": "C:\\GitHub\\ProyectoAlzAware\\AlzAware\\Assets\\Scripts\\EjerciciosJugables\\SopaLetras\\ScriptableObjects\\DatosNivelJuego.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\EjerciciosJugables\\SopaLetras\\ScriptableObjects\\DatosNivelJuego.cs",
+              "ToolTip": "C:\\GitHub\\ProyectoAlzAware\\AlzAware\\Assets\\Scripts\\EjerciciosJugables\\SopaLetras\\ScriptableObjects\\DatosNivelJuego.cs",
+              "RelativeToolTip": "Assets\\Scripts\\EjerciciosJugables\\SopaLetras\\ScriptableObjects\\DatosNivelJuego.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T16:26:15.673Z"
             }
           ]
         }

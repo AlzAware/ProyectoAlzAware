@@ -15,17 +15,18 @@ public class BusquedaPalabra : MonoBehaviour
     {
 
     }
-
+    //Metodo que habilita el evento de palabra correcta
     private void OnEnable()
     {
         EventosJuego.OnCorrectWord += CorrectWord;
     }
+    //Metodo que deshabilita el evento de palabra correcta
     private void OnDisable()
     {
         EventosJuego.OnCorrectWord -= CorrectWord;
 
     }
-
+    //Metodo para establecer las palabras que se colocaron
     public void SetWord(string word)
     {
         _word = word;

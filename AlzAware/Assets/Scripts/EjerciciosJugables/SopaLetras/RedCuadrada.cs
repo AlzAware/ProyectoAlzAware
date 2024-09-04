@@ -19,11 +19,12 @@ public class RedCuadrada : MonoBehaviour
     private int _index = -1;
     private bool _correct;
 
-
+    //Metodo que posiciona un indice
     public void SetIndex(int index)
     {
         _index = index;
     }
+    //Metodo que consigue la posicion del indice
     public int GetIndex()
     {
         return _index;
@@ -37,6 +38,7 @@ public class RedCuadrada : MonoBehaviour
         _displayedImage = GetComponent<SpriteRenderer>();
               
     }
+    //Metodo que habilita los eventos de la clase eventos de juegos: habilitar, desabilitar y seleccion del cuadradoy comprobacion de la palabra correcta
     private void OnEnable()
     {
         EventosJuego.OnEnableSquareSelection += OnEnableSquareSelection;
@@ -45,7 +47,7 @@ public class RedCuadrada : MonoBehaviour
         EventosJuego.OnCorrectWord += CorrectWord;
 
     }
-    //Deshabilitar la seleccion del cuadrado en los eventos del juego.
+    //Metodo que deshabilita los eventos de la clase eventos de juegos: habilitar, desabilitar y seleccion del cuadradoy comprobacion de la palabra correcta
     private void OnDisable()
     {
         EventosJuego.OnEnableSquareSelection -= OnEnableSquareSelection;
@@ -54,6 +56,8 @@ public class RedCuadrada : MonoBehaviour
         EventosJuego.OnCorrectWord -= CorrectWord;
 
     }
+
+    //Metodo que comprueba si la palabra es correcto y actualiza forma visual de la palabra a correcta
     private void CorrectWord(string word, List<int> squareIndexes)
     {
         if (_selected && squareIndexes.Contains(_index))
@@ -66,14 +70,14 @@ public class RedCuadrada : MonoBehaviour
         _clicked = false;
     }
 
-    //mientras se activa la seleccion de cuadrados puedes seguir clicando varias letras??
+    //Metodo que controla que el cuadrado este en un estado correcto para cuando se vaya a seleccionar
     public void OnEnableSquareSelection()
     {
         _clicked = true;
         _selected = false;
 
     }
-    //al desactivar la seleccion si la palabra es correcta se activara sprite correcto y si no se desactivara la seleccion y volver a sprite normalLetras
+    //Metodo qu al desactivar la seleccion, si la palabra es correcta, se activara sprite correcto y si no se desactivara la seleccion y volver a sprite normalLetras
     public void OnDisableSquareSelection()
     {
         _clicked = false;
@@ -88,7 +92,7 @@ public class RedCuadrada : MonoBehaviour
             _displayedImage.sprite = _normalLetterData.image;
         }
     }
-    //asocia la seleccion de las letras con el sprite de seleccionLetras
+    //Metodo para asociar la seleccion de las letras con el sprite seleccionLetras
     public void SelectSquare(Vector3 position)
     {
         if (this.gameObject.transform.position == position)
@@ -96,6 +100,7 @@ public class RedCuadrada : MonoBehaviour
             _displayedImage.sprite = _selectedLetterData.image;
         }
     }
+    //Metodo que coloca los sprite correspondientes cuando no se seleccionan los cuadrados, para cuando se seleccionan y para cuando la palabra es comprobada como correcta
     public void SetSprite(DatosAlfabeto.LetterData normalLetterData, DatosAlfabeto.LetterData selectedLetterData,
        DatosAlfabeto.LetterData correctLetterData)
     {
@@ -105,6 +110,7 @@ public class RedCuadrada : MonoBehaviour
 
         GetComponent<SpriteRenderer>().sprite = _normalLetterData.image;
     }
+    //Metodo que habilita la seleccion del cuadrado cuando se presiona el mouse y permite cambiar el sprite a letra seleccionada
     private void OnMouseDown()
     {
         OnEnableSquareSelection();
@@ -113,18 +119,18 @@ public class RedCuadrada : MonoBehaviour
         _displayedImage.sprite = _selectedLetterData.image;
 
     }
-    //El enter del mouse comprueba los cuadrados
+    //Metodo que comprueba los cuadrados cuando el mouse hace enter
     private void OnMouseEnter()
     {
         CheckSquare();
     }
-    //Al despulsar el boton del raton se desactiva la seleccion
+    //Metodo que desactiva la seleccion al despulsar el boton del raton 
     private void OnMouseUp()
     {
         EventosJuego.ClearSelectionMethod();
         EventosJuego.DisableSquareSelectionMethod();
     }
-
+    //Metodo que evaluar las celdas seleccionadas
     public void CheckSquare()
     {
         if (_selected == false && _clicked == true)

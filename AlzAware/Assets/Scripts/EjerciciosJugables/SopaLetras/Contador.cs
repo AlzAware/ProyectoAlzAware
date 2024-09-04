@@ -23,7 +23,7 @@ public class Contador : MonoBehaviour
             UpdateTimerText(timeElapsed);
         }
     }
-
+    //Metodo que pone el tiempo en minutos y segundo segun el formato indicado
     void UpdateTimerText(float timeToDisplay)
     {
         float minutes = Mathf.FloorToInt(timeToDisplay / 60);

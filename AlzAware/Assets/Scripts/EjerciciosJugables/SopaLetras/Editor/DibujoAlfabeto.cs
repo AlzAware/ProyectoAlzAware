@@ -8,6 +8,7 @@ using UnityEngine;
 [CanEditMultipleObjects]
 [System.Serializable]
 
+//Clase que asigna en el editor de unity los colores de las celdas para su estados normal, de seleccion y de palabra correcta
 public class DibujoAlfabeto : Editor
 {
     private ReorderableList AlphabetNormalList;

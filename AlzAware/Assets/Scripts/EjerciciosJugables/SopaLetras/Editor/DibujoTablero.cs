@@ -10,7 +10,9 @@ using System.Text.RegularExpressions;
 [CustomEditor(typeof(DatosTablero), false)]
 [CanEditMultipleObjects]
 [System.Serializable]
-
+/*Clase que dibuja en el editor un tablero con cuadrado imitando a la sopa de letras final que aparece en el juego. Contiene: zonas para indicar el numero de columnas y filas para crear la pizarra,
+//Un boton para convertir las letras en mayusculas, un boton para rellenar aleatoriamente las celdas vacias, un boton para limpiar la pizarra y la creaccion de una lista donde se puede añadir las
+palabras que queremos localizar en la sopa de letra*/
 public class DibujoTablero : Editor
 {
     private DatosTablero GameDataInstance => target as DatosTablero;
@@ -22,6 +24,7 @@ public class DibujoTablero : Editor
 
     }
 
+    //Metodo que coloca en el inspector los elementos creados(seleccion de columnas y filas, botones,etc)
     public override void OnInspectorGUI()
     {
         serializedObject.Update();
@@ -48,7 +51,7 @@ public class DibujoTablero : Editor
             EditorUtility.SetDirty(GameDataInstance);
         }
     }
-
+    //Metodo que crea las lineas para poder añadir las columnas y filas que queramos
     private void DrawColumnsRowsInputFields()
     {
         var columnsTemp = GameDataInstance.Columns;
@@ -64,6 +67,7 @@ public class DibujoTablero : Editor
             GameDataInstance.CreateNewBoard();
         }
     }
+    //Metodo para dibujar la pizarra en el editor
     private void DrawBoardTable()
     {
         var tableStyle = new GUIStyle("box");
@@ -109,6 +113,8 @@ public class DibujoTablero : Editor
         }
         EditorGUILayout.EndHorizontal();              
     }
+
+    //Metodo para inicializar y configurar la lista de los elementos en el inspector 
     private void InitializeReordableList(ref ReorderableList list, string propertyName, string listLabel)
     {
         list = new ReorderableList(serializedObject, serializedObject.FindProperty(propertyName),
@@ -129,7 +135,7 @@ public class DibujoTablero : Editor
                 element.FindPropertyRelative("Word"), GUIContent.none);
         };
     }
-
+    //Metodo que crea un boton para convertir en mayusculas las letras
     private void ConvertToUpperButton()
     {
         if (GUILayout.Button("To Upper"))
@@ -156,7 +162,7 @@ public class DibujoTablero : Editor
             }
         }
     }
-
+    //Metodo que crea un boton para limpiar la pizarra
     private void ClearBoardButton()
     {
         if (GUILayout.Button("Clear Board"))
@@ -170,6 +176,7 @@ public class DibujoTablero : Editor
             }
         }
     }
+    //Metodo que crea un boton para rellenas las celdas vacias con letras aleatorias.
     private void FillUpWithRandomLettersButton()
     {
         if (GUILayout.Button("Fill Up With Random"))

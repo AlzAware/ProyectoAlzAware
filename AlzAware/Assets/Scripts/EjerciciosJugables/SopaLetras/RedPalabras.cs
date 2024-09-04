@@ -22,7 +22,8 @@ public class RedPalabras : MonoBehaviour
         SpawnGridSquares();
         SetSquarePosition();
     }
-
+    //Metodo que posiciona las celdas de la sopa de letras en una cuadricula ordenada en funcion del tamaño y la escala de cada celda,
+    //deja espacio entre cada celda a traves del valor squareOffset.
     private void SetSquarePosition()
     {
         var squareRect = _squareList[0].GetComponent<SpriteRenderer>().sprite.rect;
@@ -51,6 +52,9 @@ public class RedPalabras : MonoBehaviour
             rowNumber++;
         }
     }
+
+    //Metodo que calcula la posicion inicial de la primera celda en la cuadricula de la sopa de letras,consiguiendo que la cuadricula quede
+    //centrada horizontalmente y comenzando en la parte superior. De esta manera quedan ordenados todas las celdas en la cuadricula.
     private Vector2 GetFirstSquarePosition()
     {
         var startPosition = new Vector2(0f, transform.position.y);
@@ -69,6 +73,8 @@ public class RedPalabras : MonoBehaviour
 
         return startPosition;
     }
+
+    //Metodo que genera las celdas de la cuadricula de la sopa de letras.
     private void SpawnGridSquares()
     {
 
@@ -110,7 +116,7 @@ public class RedPalabras : MonoBehaviour
 
         }
     }
-
+    //Metodo que obtiene la escala de las celdas para ajustarlo a la cuadricula
     private Vector3 GetSquareScale(Vector3 defaultScale)
     {
         var finalScale = defaultScale;
@@ -130,6 +136,7 @@ public class RedPalabras : MonoBehaviour
         }
         return finalScale;
     }
+    //Metodo que permite verificar la escala de la cuadricula para ajustar a los margenes de la pantalla disponible
     private bool ShouldScaleDown(Vector3 targetScale)
     {
         var squareRect = gridSquarePrefab.GetComponent<SpriteRenderer>().sprite.rect;
@@ -147,6 +154,7 @@ public class RedPalabras : MonoBehaviour
 
         return startPosition.x < GetHalfScreenWidth() * -1 || startPosition.y > topPosition;
     }
+    //Metodo que calcula la mitad del ancho de la pantalla, de tal forma que si se necesita ajustar la cuadricula, te permite escalarlo correctamente
     private float GetHalfScreenWidth()
     {
         float height = Camera.main.orthographicSize * 2;
