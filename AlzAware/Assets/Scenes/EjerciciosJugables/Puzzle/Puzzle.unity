@@ -2010,7 +2010,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1974183721}
-        m_TargetAssemblyTypeName: ControladorPuzzle, Assembly-CSharp
+        m_TargetAssemblyTypeName: ControladorVolver, Assembly-CSharp
         m_MethodName: VolverAEjercicios
         m_Mode: 1
         m_Arguments:
@@ -2301,7 +2301,7 @@ GameObject:
   - component: {fileID: 1974183720}
   - component: {fileID: 1974183721}
   m_Layer: 0
-  m_Name: ControladorPuzzle
+  m_Name: ControladorVolver
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2343,7 +2343,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1974183718}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b745883611a91904a856630de4065294, type: 3}
+  m_Script: {fileID: 11500000, guid: e2d7fd4817d0b684e998ea76318df4e8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &2035477616

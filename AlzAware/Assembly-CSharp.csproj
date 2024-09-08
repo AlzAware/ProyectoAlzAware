@@ -71,7 +71,6 @@
     <Compile Include="Assets\Scripts\EjerciciosJugables\JuegoParejas\BoardManager.cs" />
     <Compile Include="Assets\Scripts\Servidor\CrearCuenta.cs" />
     <Compile Include="Assets\Scripts\EjerciciosJugables\Puzzle\Shape\ShapeStorage.cs" />
-    <Compile Include="Assets\Scripts\EjerciciosJugables\Puzzle\ControladorPuzzle.cs" />
     <Compile Include="Assets\Scripts\EjerciciosJugables\Puzzle\Shape\Shape.cs" />
     <Compile Include="Assets\Scripts\EjerciciosJugables\SopaLetras\RedPalabras.cs" />
     <Compile Include="Assets\Scripts\Controladores\ControladorMenuPrincipal.cs" />
@@ -85,6 +84,7 @@
     <Compile Include="Assets\Scripts\Controladores\ControladorSplash.cs" />
     <Compile Include="Assets\Scripts\EjerciciosJugables\BuscaObjetos\SeleccionObjetos.cs" />
     <Compile Include="Assets\Scripts\EjerciciosJugables\SopaLetras\RedCuadrada.cs" />
+    <Compile Include="Assets\Scripts\Controladores\ControladorVolver.cs" />
     <Compile Include="Assets\Scripts\EjerciciosJugables\Puzzle\MenuButtons.cs" />
     <Compile Include="Assets\Scripts\EjerciciosJugables\Puzzle\Utility\BinaryDataStream.cs" />
     <Compile Include="Assets\Scripts\EjerciciosJugables\SopaLetras\ScriptableObjects\DatosJuego.cs" />
