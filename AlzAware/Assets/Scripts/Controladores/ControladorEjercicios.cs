@@ -1,50 +1,86 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEditor;
-using UnityEditor.SearchService;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class ControladorEjercicios : MonoBehaviour
 {
-    // Lista de referencias a las escenas de la Sopa de Letras y Busca Objetos
-    public SceneAsset[] escenasSopaDeLetras;
-    public SceneAsset[] escenasBuscaObjetos;
+    
+    public int escenasSopaLetras;
+    public int escenasBuscaObjetos;
 
     public void CargarSopaDeLetrasAleatoria()
     {
-        if (escenasSopaDeLetras.Length == 0)
-        {
-            Debug.LogError("No hay escenas en la lista para cargar.");
-            return;
-        }
-
         // Seleccionar un índice aleatorio
-        int aleatorio = Random.Range(0, escenasSopaDeLetras.Length);
+         int aleatorioEscena = Random.Range(1, escenasSopaLetras);
 
-        // Obtener el nombre de la escena seleccionada aleatoriamente
-        string escena = escenasSopaDeLetras[aleatorio].name;
+        switch (aleatorioEscena)
+        {
+            case 1:
+                SceneManager.LoadScene("SopaLetras");
+                break;
+            case 2:
+                SceneManager.LoadScene("SopaLetras1");
+                break;
+            case 3:
+                SceneManager.LoadScene("SopaLetras2");
+                break;
+            case 4:
+                SceneManager.LoadScene("SopaLetras3");
+                break;
+            case 5:
+                SceneManager.LoadScene("SopaLetras4");
+                break;
+            case 6:
+                SceneManager.LoadScene("SopaLetras5");
+                break;
+            case 7:
+                SceneManager.LoadScene("SopaLetras6");
+                break;
+            case 8:
+                SceneManager.LoadScene("SopaLetras7");
+                break;
+            case 9:
+                SceneManager.LoadScene("SopaLetras8");
+                break;
+            case 10:
+                SceneManager.LoadScene("SopaLetras9");
+                break;
+            default:
+                Debug.LogError("No hay escenas en la lista para cargar.");
+                break;
 
-        // Cargar la escena seleccionada aleatoriamente
-        SceneManager.LoadScene(escena);
+        }
+       
     }
 
     public void CargarBuscaObjetosAleatorio()
     {
-        if (escenasBuscaObjetos.Length == 0)
+        // Seleccionar un numero aleatorio
+        int aleatorioEscena = Random.Range(1, escenasBuscaObjetos);
+
+        // Segun el numero seleccionado entrara en una escena u otra
+        switch (aleatorioEscena)
         {
-            Debug.LogError("No hay escenas en la lista para cargar.");
-            return;
+            case 1:
+                SceneManager.LoadScene("BuscaObjetos1");
+                break;
+            case 2:
+                SceneManager.LoadScene("BuscaObjetos2");
+                break;
+            case 3:
+                SceneManager.LoadScene("BuscaObjetos3");
+                break;
+            case 4:
+                SceneManager.LoadScene("BuscaObjetos4");
+                break;
+            default:
+                Debug.LogError("No hay escenas en la lista para cargar.");
+                break;
+
         }
 
-        // Seleccionar un índice aleatorio
-        int aleatorio = Random.Range(0, escenasBuscaObjetos.Length);
-
-        // Obtener el nombre de la escena seleccionada aleatoriamente
-        string escena = escenasBuscaObjetos[aleatorio].name;
-
-        // Cargar la escena seleccionada aleatoriamente
-        SceneManager.LoadScene(escena);
     }
 
     public void CargarJuegoParejas()

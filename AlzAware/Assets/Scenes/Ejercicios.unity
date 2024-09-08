@@ -2160,21 +2160,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 417e20b0da0c7d7459fd85a54ca1c421, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  escenasSopaDeLetras:
-  - {fileID: 102900000, guid: 3c92f60df945f2a479ebbe5103402fcb, type: 3}
-  - {fileID: 102900000, guid: 81f3438fb09c17d4a866150394e05870, type: 3}
-  - {fileID: 102900000, guid: 4595f9c8473eb31489b9de4ceb3f8ee5, type: 3}
-  - {fileID: 102900000, guid: 79d42b83f641daa458a82efcfd544ef3, type: 3}
-  - {fileID: 102900000, guid: aff39f858b97f0b4a8b12b7e53d8e7d2, type: 3}
-  - {fileID: 102900000, guid: 687ebf74c53e5484ab5192057fc009f4, type: 3}
-  - {fileID: 102900000, guid: e470cdf949b58f24994885e10fb947f1, type: 3}
-  - {fileID: 102900000, guid: 0aea864e958e40f4880ea6899dc0016a, type: 3}
-  - {fileID: 102900000, guid: 32aca91badc3c904ca1ef394c535ba1b, type: 3}
-  escenasBuscaObjetos:
-  - {fileID: 102900000, guid: 571582bbe82b40545a225e952ebb2108, type: 3}
-  - {fileID: 102900000, guid: fe2d15dbde86bc846bf30d070877e16e, type: 3}
-  - {fileID: 102900000, guid: 6edd32af73a7a1a4688b91bf479799bb, type: 3}
-  - {fileID: 102900000, guid: c8b23d8027d63014a9e04b272f1eb556, type: 3}
+  escenasSopaLetras: 10
+  escenasBuscaObjetos: 4
 --- !u!1 &1405889733
 GameObject:
   m_ObjectHideFlags: 0
