@@ -340,9 +340,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1385212950}
-        m_TargetAssemblyTypeName: ControladorMenuPrincipal, Assembly-CSharp
-        m_MethodName: IrAEjercicios
+      - m_Target: {fileID: 1385212952}
+        m_TargetAssemblyTypeName: ControladorVolver, Assembly-CSharp
+        m_MethodName: VolverAEjercicios
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -532,6 +532,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1385212951}
+  - component: {fileID: 1385212952}
   - component: {fileID: 1385212950}
   m_Layer: 0
   m_Name: ControladorMenus
@@ -552,6 +553,45 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 55ce6f6b3d3edf14ca32a821767422cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  panelAzulAnimator: {fileID: 0}
+  logoEjerciciosDiariosAnimator: {fileID: 0}
+  textoEjerciciosDiariosAnimator: {fileID: 0}
+  panelNaranjaEjerciciosDiariosAnimator: {fileID: 0}
+  logoEjerciciosAnimator: {fileID: 0}
+  textoEjerciciosAnimator: {fileID: 0}
+  panelVerdeEjerciciosAnimator: {fileID: 0}
+  logoEstadisticasAnimator: {fileID: 0}
+  textoEstadisticasAnimator: {fileID: 0}
+  panelAmarilloEstadisticasAnimator: {fileID: 0}
+  logoAjustesAnimator: {fileID: 0}
+  textoAjustesAnimator: {fileID: 0}
+  panelMoradoAjustesAnimator: {fileID: 0}
+  logoInfoAnimator: {fileID: 0}
+  textoInfoAnimator: {fileID: 0}
+  panelRojoInfoAnimator: {fileID: 0}
+  menu: {fileID: 0}
+  ejerciciosDiarios: {fileID: 0}
+  panelNaranjaEjerciciosDiarios: {fileID: 0}
+  botonEjerciciosDiarios: {fileID: 0}
+  textoEjerciciosDiarios: {fileID: 0}
+  ejercicios: {fileID: 0}
+  panelVerdeEjercicios: {fileID: 0}
+  botonEjercicios: {fileID: 0}
+  textoEjercicios: {fileID: 0}
+  estadisticas: {fileID: 0}
+  panelAmarilloEstadisticas: {fileID: 0}
+  botonEstadisticas: {fileID: 0}
+  textoEstadisticas: {fileID: 0}
+  ajustes: {fileID: 0}
+  panelMoradoAjustes: {fileID: 0}
+  botonAjustes: {fileID: 0}
+  textoAjustes: {fileID: 0}
+  logoAjustes: {fileID: 0}
+  info: {fileID: 0}
+  panelRojoInfo: {fileID: 0}
+  botonInfo: {fileID: 0}
+  textoInfo: {fileID: 0}
+  logoInfo: {fileID: 0}
 --- !u!4 &1385212951
 Transform:
   m_ObjectHideFlags: 0
@@ -567,6 +607,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1385212952
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1385212949}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2d7fd4817d0b684e998ea76318df4e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1437901467
 GameObject:
   m_ObjectHideFlags: 0

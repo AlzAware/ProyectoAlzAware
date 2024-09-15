@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/EjerciciosJugables/BuscaObjetos/BuscaObjetos1.unity
+- path: Assets/Scenes/Ejercicios.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
