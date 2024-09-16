@@ -5,14 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class ControladorSplash : MonoBehaviour
 {
-    private GameObject logo;
-    private Animator logoAnimator;
-
     void Start()
     {
-        logo = GameObject.Find("Splash");
-        logoAnimator = logo.GetComponent<Animator>();
-
         // Llama a la función para cambiar la escena después de 8 segundos
         StartCoroutine(CambiarEscenaDespuesDeEspera());
     }

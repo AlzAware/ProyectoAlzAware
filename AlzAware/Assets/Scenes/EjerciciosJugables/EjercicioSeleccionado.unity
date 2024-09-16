@@ -420,6 +420,45 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 55ce6f6b3d3edf14ca32a821767422cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  panelAzulAnimator: {fileID: 0}
+  logoEjerciciosDiariosAnimator: {fileID: 0}
+  textoEjerciciosDiariosAnimator: {fileID: 0}
+  panelNaranjaEjerciciosDiariosAnimator: {fileID: 0}
+  logoEjerciciosAnimator: {fileID: 0}
+  textoEjerciciosAnimator: {fileID: 0}
+  panelVerdeEjerciciosAnimator: {fileID: 0}
+  logoEstadisticasAnimator: {fileID: 0}
+  textoEstadisticasAnimator: {fileID: 0}
+  panelAmarilloEstadisticasAnimator: {fileID: 0}
+  logoAjustesAnimator: {fileID: 0}
+  textoAjustesAnimator: {fileID: 0}
+  panelMoradoAjustesAnimator: {fileID: 0}
+  logoInfoAnimator: {fileID: 0}
+  textoInfoAnimator: {fileID: 0}
+  panelRojoInfoAnimator: {fileID: 0}
+  menu: {fileID: 0}
+  ejerciciosDiarios: {fileID: 0}
+  panelNaranjaEjerciciosDiarios: {fileID: 0}
+  botonEjerciciosDiarios: {fileID: 0}
+  textoEjerciciosDiarios: {fileID: 0}
+  ejercicios: {fileID: 0}
+  panelVerdeEjercicios: {fileID: 0}
+  botonEjercicios: {fileID: 0}
+  textoEjercicios: {fileID: 0}
+  estadisticas: {fileID: 0}
+  panelAmarilloEstadisticas: {fileID: 0}
+  botonEstadisticas: {fileID: 0}
+  textoEstadisticas: {fileID: 0}
+  ajustes: {fileID: 0}
+  panelMoradoAjustes: {fileID: 0}
+  botonAjustes: {fileID: 0}
+  textoAjustes: {fileID: 0}
+  logoAjustes: {fileID: 0}
+  info: {fileID: 0}
+  panelRojoInfo: {fileID: 0}
+  botonInfo: {fileID: 0}
+  textoInfo: {fileID: 0}
+  logoInfo: {fileID: 0}
 --- !u!4 &862170653
 Transform:
   m_ObjectHideFlags: 0
@@ -912,12 +951,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 1080, y: 1920}
   m_ScreenMatchMode: 0
-  m_MatchWidthOrHeight: 0
+  m_MatchWidthOrHeight: 1
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96

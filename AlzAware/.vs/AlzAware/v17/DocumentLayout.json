@@ -1,54 +1,12 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\GitHub\\ProyectoAlzAware\\AlzAware\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{4217D28B-1672-C9D0-35EA-979224E3899B}|Assembly-CSharp.csproj|c:\\github\\proyectoalzaware\\alzaware\\assets\\scripts\\controladores\\controladorajustes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4217D28B-1672-C9D0-35EA-979224E3899B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\controladores\\controladorajustes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4217D28B-1672-C9D0-35EA-979224E3899B}|Assembly-CSharp.csproj|c:\\github\\proyectoalzaware\\alzaware\\assets\\scripts\\controladores\\controladorvolver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4217D28B-1672-C9D0-35EA-979224E3899B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\controladores\\controladorvolver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "WorkspaceRootPath": "E:\\DISENODEJUEGOS\\Mis cosas\\ProyectoAlzAware\\AlzAware\\",
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ControladorAjustes.cs",
-              "DocumentMoniker": "C:\\GitHub\\ProyectoAlzAware\\AlzAware\\Assets\\Scripts\\Controladores\\ControladorAjustes.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Controladores\\ControladorAjustes.cs",
-              "ToolTip": "C:\\GitHub\\ProyectoAlzAware\\AlzAware\\Assets\\Scripts\\Controladores\\ControladorAjustes.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Controladores\\ControladorAjustes.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACQAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-11T17:13:58.946Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ControladorVolver.cs",
-              "DocumentMoniker": "C:\\GitHub\\ProyectoAlzAware\\AlzAware\\Assets\\Scripts\\Controladores\\ControladorVolver.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Controladores\\ControladorVolver.cs",
-              "ToolTip": "C:\\GitHub\\ProyectoAlzAware\\AlzAware\\Assets\\Scripts\\Controladores\\ControladorVolver.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Controladores\\ControladorVolver.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-08T10:38:15.361Z",
-              "EditorCaption": ""
-            }
-          ]
-        }
-      ]
+      "DocumentGroups": []
     }
   ]
 }
