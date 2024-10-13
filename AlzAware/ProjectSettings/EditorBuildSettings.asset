@@ -110,4 +110,25 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/EjerciciosJugables/Puzzle/Puzzle.unity
     guid: 6458ecdf2fb783f40a3e0b8ec03552c0
+  - enabled: 1
+    path: Assets/Scenes/EjerciciosJugables/Refranes/Refran1.unity
+    guid: 3fafb9648b636f34380d0a97951f6427
+  - enabled: 1
+    path: Assets/Scenes/EjerciciosJugables/Refranes/Refran2.unity
+    guid: 66757db2f0c79354aa1958b7016b6467
+  - enabled: 1
+    path: Assets/Scenes/EjerciciosJugables/Refranes/Refran3.unity
+    guid: 078ef091242aa3144a0101fc694509d1
+  - enabled: 1
+    path: Assets/Scenes/EjerciciosJugables/Refranes/Refran4.unity
+    guid: c22015a48d2a4bb4999d03acb64f1708
+  - enabled: 1
+    path: Assets/Scenes/EjerciciosJugables/Refranes/Refran5.unity
+    guid: 1d28749e0811d5f489c7453134c55722
+  - enabled: 1
+    path: Assets/Scenes/EjerciciosJugables/Refranes/Refran6.unity
+    guid: e8345b91dc1baa34d8fb93b9511975c8
+  - enabled: 1
+    path: Assets/Scenes/EjerciciosJugables/Refranes/Refran7.unity
+    guid: 97d678039961bbd4aaf07aeff322b83a
   m_configObjects: {}

@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEditor;
@@ -9,11 +10,12 @@ public class ControladorEjercicios : MonoBehaviour
     
     public int escenasSopaLetras;
     public int escenasBuscaObjetos;
+    public int escenasRefranes;
 
     public void CargarSopaDeLetrasAleatoria()
     {
         // Seleccionar un índice aleatorio
-         int aleatorioEscena = Random.Range(1, escenasSopaLetras);
+         int aleatorioEscena = UnityEngine.Random.Range(1, escenasSopaLetras+1);
 
         switch (aleatorioEscena)
         {
@@ -58,7 +60,7 @@ public class ControladorEjercicios : MonoBehaviour
     public void CargarBuscaObjetosAleatorio()
     {
         // Seleccionar un numero aleatorio
-        int aleatorioEscena = Random.Range(1, escenasBuscaObjetos);
+        int aleatorioEscena = UnityEngine.Random.Range(1, escenasBuscaObjetos+1);
 
         // Segun el numero seleccionado entrara en una escena u otra
         switch (aleatorioEscena)
@@ -81,6 +83,42 @@ public class ControladorEjercicios : MonoBehaviour
 
         }
 
+    }
+
+    public void CargarRefranesAleatorio()
+    {
+        // Seleccionar un índice aleatorio
+        int aleatorioEscena = UnityEngine.Random.Range(1, escenasRefranes + 1);
+
+        switch (aleatorioEscena)
+        {
+            case 1:
+                SceneManager.LoadScene("Refran1");
+                break;
+            case 2:
+                SceneManager.LoadScene("Refran2");
+                break;
+            case 3:
+                SceneManager.LoadScene("Refran3");
+                break;
+            case 4:
+                SceneManager.LoadScene("Refran4");
+                break;
+            case 5:
+                SceneManager.LoadScene("Refran5");
+                break;
+            case 6:
+                SceneManager.LoadScene("Refran6");
+                break;
+            case 7:
+                SceneManager.LoadScene("Refran7");
+                break;
+            
+            default:
+                Debug.LogError("No hay escenas en la lista para cargar.");
+                break;
+
+        }
     }
 
     public void CargarJuegoParejas()
