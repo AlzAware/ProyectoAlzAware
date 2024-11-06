@@ -67,6 +67,7 @@
     <Compile Include="Assets\Scripts\EjerciciosJugables\Puzzle\Game\ActiveSquareImageSelector.cs" />
     <Compile Include="Assets\Scripts\EjerciciosJugables\Puzzle\Config.cs" />
     <Compile Include="Assets\Scripts\EjerciciosJugables\SopaLetras\EventosJuego.cs" />
+    <Compile Include="Assets\Scripts\EjerciciosJugables\FormasGeometricas\SeleccionForma.cs" />
     <Compile Include="Assets\Scripts\Controladores\ControladorEstadisticasGlobales.cs" />
     <Compile Include="Assets\Scripts\EjerciciosJugables\JuegoParejas\BoardManager.cs" />
     <Compile Include="Assets\Scripts\Servidor\CrearCuenta.cs" />

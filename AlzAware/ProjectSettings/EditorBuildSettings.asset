@@ -131,4 +131,19 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/EjerciciosJugables/Refranes/Refran7.unity
     guid: 97d678039961bbd4aaf07aeff322b83a
+  - enabled: 1
+    path: Assets/Scenes/EjerciciosJugables/FormasGeometricas/FormaGeometrica.unity
+    guid: 53da599673ded964b8bef3d154724955
+  - enabled: 1
+    path: Assets/Scenes/EjerciciosJugables/FormasGeometricas/FormaGeometrica1.unity
+    guid: 9748bfc7f6c5980438fe02d82c8ceffc
+  - enabled: 1
+    path: Assets/Scenes/EjerciciosJugables/FormasGeometricas/FormaGeometrica2.unity
+    guid: a34dd8c139ea78f4e91276b1125a0c5f
+  - enabled: 1
+    path: Assets/Scenes/EjerciciosJugables/FormasGeometricas/FormaGeometrica3.unity
+    guid: c73e7cab493b7de418575990af73348e
+  - enabled: 1
+    path: Assets/Scenes/EjerciciosJugables/FormasGeometricas/FormaGeometrica4.unity
+    guid: 4a3f194b692315d4895e9cc791b964ad
   m_configObjects: {}

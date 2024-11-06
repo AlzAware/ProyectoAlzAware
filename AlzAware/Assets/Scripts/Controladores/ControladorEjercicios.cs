@@ -11,6 +11,7 @@ public class ControladorEjercicios : MonoBehaviour
     public int escenasSopaLetras;
     public int escenasBuscaObjetos;
     public int escenasRefranes;
+    public int escenasFormasGeometricas;
 
     public void CargarSopaDeLetrasAleatoria()
     {
@@ -76,6 +77,37 @@ public class ControladorEjercicios : MonoBehaviour
                 break;
             case 4:
                 SceneManager.LoadScene("BuscaObjetos4");
+                break;
+            default:
+                Debug.LogError("No hay escenas en la lista para cargar.");
+                break;
+
+        }
+
+    }
+
+    public void CargarFormasGeometricasAleatorio()
+    {
+        // Seleccionar un numero aleatorio
+        int aleatorioEscena = UnityEngine.Random.Range(1, escenasFormasGeometricas + 1);
+
+        // Segun el numero seleccionado entrara en una escena u otra
+        switch (aleatorioEscena)
+        {
+            case 1:
+                SceneManager.LoadScene("FormaGeometrica");
+                break;
+            case 2:
+                SceneManager.LoadScene("FormaGeometrica1");
+                break;
+            case 3:
+                SceneManager.LoadScene("FormaGeometrica2");
+                break;
+            case 4:
+                SceneManager.LoadScene("FormaGeometrica3");
+                break;
+            case 5:
+                SceneManager.LoadScene("FormaGeometrica4");
                 break;
             default:
                 Debug.LogError("No hay escenas en la lista para cargar.");

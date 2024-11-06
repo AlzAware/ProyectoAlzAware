@@ -389,6 +389,7 @@
 "Assets/Scripts/Controladores/ControladorVolver.cs"
 "Assets/Scripts/EjerciciosJugables/BuscaObjetos/ActivarPopUp.cs"
 "Assets/Scripts/EjerciciosJugables/BuscaObjetos/SeleccionObjetos.cs"
+"Assets/Scripts/EjerciciosJugables/FormasGeometricas/SeleccionForma.cs"
 "Assets/Scripts/EjerciciosJugables/JuegoParejas/BoardManager.cs"
 "Assets/Scripts/EjerciciosJugables/JuegoParejas/Card.cs"
 "Assets/Scripts/EjerciciosJugables/JuegoParejas/ControladorParejas.cs"

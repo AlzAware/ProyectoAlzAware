@@ -1234,7 +1234,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1385212952}
         m_TargetAssemblyTypeName: ControladorEjercicios, Assembly-CSharp
-        m_MethodName: CargarRefranesAleatorio
+        m_MethodName: CargarFormasGeometricasAleatorio
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1243,7 +1243,7 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
-        m_CallState: 0
+        m_CallState: 2
 --- !u!1 &746903628
 GameObject:
   m_ObjectHideFlags: 0
@@ -2163,6 +2163,7 @@ MonoBehaviour:
   escenasSopaLetras: 10
   escenasBuscaObjetos: 4
   escenasRefranes: 7
+  escenasFormasGeometricas: 5
 --- !u!1 &1405889733
 GameObject:
   m_ObjectHideFlags: 0
