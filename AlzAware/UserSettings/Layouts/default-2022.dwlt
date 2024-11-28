@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 2560
     height: 1357
   m_ShowMode: 4
-  m_Title: Hierarchy
+  m_Title: Game
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -146,7 +146,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 28
+  controlID: 18
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -221,8 +221,8 @@ MonoBehaviour:
     y: 0
     width: 418
     height: 1307
-  m_MinSize: {x: 202, y: 221}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 17}
@@ -273,8 +273,8 @@ MonoBehaviour:
     y: 0
     width: 456
     height: 1307
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 19}
   m_Panes:
   - {fileID: 19}
@@ -1298,7 +1298,7 @@ MonoBehaviour:
     m_OverlaysVisible: 1
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: 35298
+  m_LastSelectedObjectID: 28596
 --- !u!114 &17
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -1336,23 +1336,23 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
+      m_SelectedIDs: 40650000
       m_LastClickedID: 0
-      m_ExpandedIDs: 16fbffff
+      m_ExpandedIDs: aacbffff34cdffff92d4ffff4ad5ffff16d6ffffcad6ffffb4d7ffff6cd8ffff20d9ffffe8d9ffff32daffff86daffff3adbffff22dcffffdcdcffffa6ddffff58deffff0edfffffcedfffff84e0ffff44e1ffff02e2ffff14e3ffffc8e3ffffa4e4ffff0ae5ffffcee5ffff7ae6ffff52e7ffff0ce8ffffa0e8ffff6ae9ffff24eaffffeeeaffffa0ebffff52ecffffe6ecffffd0f1ffffb8f2ffffa0f3ffff88f4ffff70f5ffff8af6ffff76f7ffff56f8fffff6f8ffff16fbffff5a6500001c670000506800008e690000c66a0000026c0000386d00007c6e0000b46f0000be6f0000c071000058720000c07300001a75000082760000da77000036790000ee790000e27a0000687d000002800000da83000072860000f68800007a8b00005e8e0000a28f00000a91000064920000cc930000249500008a960000ac970000f6990000949b0000649c0000449d0000229e0000f09e0000ce9f000084a000006aa10000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: 
-        m_OriginalName: 
+        m_Name: Canvas
+        m_OriginalName: Canvas
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 0
+        m_UserData: 26704
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 11
+        m_OriginalEventType: 4
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 9}
       m_SearchString: 
@@ -1407,7 +1407,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes/EjerciciosJugables/FormasGeometricas
+    - Assets/Scenes/EjerciciosJugables/BuscaObjetos
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -1415,15 +1415,15 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Scenes/EjerciciosJugables/FormasGeometricas
+  - Assets/Scenes/EjerciciosJugables/BuscaObjetos
   m_LastFoldersGridSize: 16
   m_LastProjectPath: C:\GitHub\ProyectoAlzAware\AlzAware
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 00650000
-    m_LastClickedID: 25856
+    m_SelectedIDs: fe640000
+    m_LastClickedID: 25854
     m_ExpandedIDs: 00000000d4640000d6640000d8640000da640000dc640000de640000e0640000e264000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -1479,7 +1479,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c62300006a7600005e630000ac610000c4610000689e000018620000000000001871000070650000286300007873000086a40000
     m_RenameOverlay:
       m_UserAcceptedRename: 0

@@ -17,6 +17,9 @@ public class SeleccionObjetos : MonoBehaviour
     public static int correctObjectsCount = 0;
     public static int totalCorrectObjects = 0;
 
+    // Referencia al script del temporizador
+    public Contador contador;
+
     void Start()
     {
         // Obtener el componente Image del objeto
@@ -25,6 +28,10 @@ public class SeleccionObjetos : MonoBehaviour
         if (isCorrectObject)
         {
             totalCorrectObjects++;
+        }
+        if (contador == null)
+        {
+            contador = FindObjectOfType<Contador>();
         }
     }
 
@@ -48,6 +55,12 @@ public class SeleccionObjetos : MonoBehaviour
         {
             // Cambiar a la imagen incorrecta
             objectImage.sprite = incorrectImage;
+
+            // Reiniciar el temporizador según el ejercicio actual
+            if (contador != null)
+            {
+                contador.RestartTimer();
+            }
         }
     }
 }

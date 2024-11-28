@@ -694,6 +694,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timerText: {fileID: 778117978}
+  startTime: 180
 --- !u!114 &1377798713
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -871,7 +872,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.41057506, y: 0.06547457}
+  m_AnchoredPosition: {x: -0.4105751, y: 0.06547457}
   m_SizeDelta: {x: -0.2811501, y: -5.450949}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1724436882
@@ -1100,7 +1101,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 110.479996, y: 847.4001}
+  m_AnchoredPosition: {x: 110.47998, y: 847.4001}
   m_SizeDelta: {x: 0.88, y: 1.23}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2075828063

@@ -18,13 +18,17 @@ public class SeleccionRefran : MonoBehaviour
     // Esta variable se usará para verificar la selección de objetos correctos
     public static int correctObjectsCount = 1;
 
+    public Contador contador;
 
     void Start()
     {
         // Obtener el componente Image del objeto
         opcionObject = GetComponent<Image>();
         correctObjectsCount = 0;
-
+        if (contador == null)
+        {
+            contador = FindObjectOfType<Contador>();
+        }
 
     }
 
@@ -52,6 +56,11 @@ public class SeleccionRefran : MonoBehaviour
             // Cambiar a la imagen incorrecta
             opcionObject.sprite = incorrectImage;
 
+            // Reiniciar el temporizador según el ejercicio actual
+            if (contador != null)
+            {
+                contador.RestartTimer();
+            }
         }
     }
 
