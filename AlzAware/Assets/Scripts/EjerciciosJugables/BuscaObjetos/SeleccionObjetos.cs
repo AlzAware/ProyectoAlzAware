@@ -18,7 +18,7 @@ public class SeleccionObjetos : MonoBehaviour
     public static int totalCorrectObjects = 0;
 
     // Referencia al script del temporizador
-    public Contador contador;
+    private Contador contador;
 
     void Start()
     {

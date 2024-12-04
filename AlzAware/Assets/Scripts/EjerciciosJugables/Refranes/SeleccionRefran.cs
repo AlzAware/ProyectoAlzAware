@@ -18,7 +18,7 @@ public class SeleccionRefran : MonoBehaviour
     // Esta variable se usará para verificar la selección de objetos correctos
     public static int correctObjectsCount = 1;
 
-    public Contador contador;
+    private Contador contador;
 
     void Start()
     {

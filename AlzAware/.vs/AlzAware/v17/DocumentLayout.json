@@ -1,30 +1,38 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\GitHub\\ProyectoAlzAware\\AlzAware\\",
+  "WorkspaceRootPath": "C:\\Users\\laura\\Documents\\GitHub\\ProyectoAlzAware\\AlzAware\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4217D28B-1672-C9D0-35EA-979224E3899B}|Assembly-CSharp.csproj|c:\\github\\proyectoalzaware\\alzaware\\assets\\scripts\\ejerciciosjugables\\sopaletras\\contador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4217D28B-1672-C9D0-35EA-979224E3899B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ejerciciosjugables\\sopaletras\\contador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4217D28B-1672-C9D0-35EA-979224E3899B}|Assembly-CSharp.csproj|c:\\users\\laura\\documents\\github\\proyectoalzaware\\alzaware\\assets\\scripts\\controladores\\contador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4217D28B-1672-C9D0-35EA-979224E3899B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\controladores\\contador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4217D28B-1672-C9D0-35EA-979224E3899B}|Assembly-CSharp.csproj|C:\\GitHub\\ProyectoAlzAware\\AlzAware\\assets\\scripts\\ejerciciosjugables\\refranes\\seleccionrefran.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4217D28B-1672-C9D0-35EA-979224E3899B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ejerciciosjugables\\refranes\\seleccionrefran.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4217D28B-1672-C9D0-35EA-979224E3899B}|Assembly-CSharp.csproj|c:\\users\\laura\\documents\\github\\proyectoalzaware\\alzaware\\assets\\scripts\\ejerciciosjugables\\formasgeometricas\\seleccionforma.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4217D28B-1672-C9D0-35EA-979224E3899B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ejerciciosjugables\\formasgeometricas\\seleccionforma.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4217D28B-1672-C9D0-35EA-979224E3899B}|Assembly-CSharp.csproj|C:\\GitHub\\ProyectoAlzAware\\AlzAware\\assets\\scripts\\ejerciciosjugables\\buscaobjetos\\seleccionobjetos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4217D28B-1672-C9D0-35EA-979224E3899B}|Assembly-CSharp.csproj|C:\\Users\\laura\\Documents\\GitHub\\ProyectoAlzAware\\AlzAware\\assets\\scripts\\ejerciciosjugables\\buscaobjetos\\seleccionobjetos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4217D28B-1672-C9D0-35EA-979224E3899B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ejerciciosjugables\\buscaobjetos\\seleccionobjetos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4217D28B-1672-C9D0-35EA-979224E3899B}|Assembly-CSharp.csproj|C:\\GitHub\\ProyectoAlzAware\\AlzAware\\assets\\scripts\\controladores\\controladorejercicios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4217D28B-1672-C9D0-35EA-979224E3899B}|Assembly-CSharp.csproj|C:\\Users\\laura\\Documents\\GitHub\\ProyectoAlzAware\\AlzAware\\assets\\scripts\\ejerciciosjugables\\refranes\\seleccionrefran.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4217D28B-1672-C9D0-35EA-979224E3899B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ejerciciosjugables\\refranes\\seleccionrefran.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4217D28B-1672-C9D0-35EA-979224E3899B}|Assembly-CSharp.csproj|C:\\Users\\laura\\Documents\\GitHub\\ProyectoAlzAware\\AlzAware\\assets\\scripts\\controladores\\controladorejercicios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4217D28B-1672-C9D0-35EA-979224E3899B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\controladores\\controladorejercicios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4217D28B-1672-C9D0-35EA-979224E3899B}|Assembly-CSharp.csproj|C:\\GitHub\\ProyectoAlzAware\\AlzAware\\assets\\scripts\\ejerciciosjugables\\puzzle\\game\\grid\\gridsquare.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4217D28B-1672-C9D0-35EA-979224E3899B}|Assembly-CSharp.csproj|C:\\Users\\laura\\Documents\\GitHub\\ProyectoAlzAware\\AlzAware\\assets\\scripts\\ejerciciosjugables\\puzzle\\game\\grid\\gridsquare.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4217D28B-1672-C9D0-35EA-979224E3899B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ejerciciosjugables\\puzzle\\game\\grid\\gridsquare.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4217D28B-1672-C9D0-35EA-979224E3899B}|Assembly-CSharp.csproj|C:\\GitHub\\ProyectoAlzAware\\AlzAware\\assets\\scripts\\controladores\\controladorvolver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4217D28B-1672-C9D0-35EA-979224E3899B}|Assembly-CSharp.csproj|C:\\Users\\laura\\Documents\\GitHub\\ProyectoAlzAware\\AlzAware\\assets\\scripts\\controladores\\controladorvolver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4217D28B-1672-C9D0-35EA-979224E3899B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\controladores\\controladorvolver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\laura\\Documents\\GitHub\\ProyectoAlzAware\\AlzAware\\Assets\\Scripts\\EjerciciosJugables\\SopaLetras\\Contador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\EjerciciosJugables\\SopaLetras\\Contador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -40,34 +48,60 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Contador.cs",
-              "DocumentMoniker": "C:\\GitHub\\ProyectoAlzAware\\AlzAware\\Assets\\Scripts\\EjerciciosJugables\\SopaLetras\\Contador.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\EjerciciosJugables\\SopaLetras\\Contador.cs",
-              "ToolTip": "C:\\GitHub\\ProyectoAlzAware\\AlzAware\\Assets\\Scripts\\EjerciciosJugables\\SopaLetras\\Contador.cs",
-              "RelativeToolTip": "Assets\\Scripts\\EjerciciosJugables\\SopaLetras\\Contador.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAA3wEkAAAAAAAAA",
+              "DocumentMoniker": "C:\\Users\\laura\\Documents\\GitHub\\ProyectoAlzAware\\AlzAware\\Assets\\Scripts\\Controladores\\Contador.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Controladores\\Contador.cs",
+              "ToolTip": "C:\\Users\\laura\\Documents\\GitHub\\ProyectoAlzAware\\AlzAware\\Assets\\Scripts\\Controladores\\Contador.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Controladores\\Contador.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAowC8AAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T10:13:16.29Z",
+              "WhenOpened": "2024-12-04T09:48:19.264Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SeleccionForma.cs",
+              "DocumentMoniker": "C:\\Users\\laura\\Documents\\GitHub\\ProyectoAlzAware\\AlzAware\\Assets\\Scripts\\EjerciciosJugables\\FormasGeometricas\\SeleccionForma.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\EjerciciosJugables\\FormasGeometricas\\SeleccionForma.cs",
+              "ToolTip": "C:\\Users\\laura\\Documents\\GitHub\\ProyectoAlzAware\\AlzAware\\Assets\\Scripts\\EjerciciosJugables\\FormasGeometricas\\SeleccionForma.cs",
+              "RelativeToolTip": "Assets\\Scripts\\EjerciciosJugables\\FormasGeometricas\\SeleccionForma.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAgwBYAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T09:08:05.113Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Contador.cs",
+              "DocumentMoniker": "C:\\Users\\laura\\Documents\\GitHub\\ProyectoAlzAware\\AlzAware\\Assets\\Scripts\\EjerciciosJugables\\SopaLetras\\Contador.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\EjerciciosJugables\\SopaLetras\\Contador.cs",
+              "ToolTip": "C:\\Users\\laura\\Documents\\GitHub\\ProyectoAlzAware\\AlzAware\\Assets\\Scripts\\EjerciciosJugables\\SopaLetras\\Contador.cs",
+              "RelativeToolTip": "Assets\\Scripts\\EjerciciosJugables\\SopaLetras\\Contador.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAkwCkAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T10:13:16.29Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "SeleccionObjetos.cs",
-              "DocumentMoniker": "C:\\GitHub\\ProyectoAlzAware\\AlzAware\\Assets\\Scripts\\EjerciciosJugables\\BuscaObjetos\\SeleccionObjetos.cs",
+              "DocumentMoniker": "C:\\Users\\laura\\Documents\\GitHub\\ProyectoAlzAware\\AlzAware\\Assets\\Scripts\\EjerciciosJugables\\BuscaObjetos\\SeleccionObjetos.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\EjerciciosJugables\\BuscaObjetos\\SeleccionObjetos.cs",
-              "ToolTip": "C:\\GitHub\\ProyectoAlzAware\\AlzAware\\Assets\\Scripts\\EjerciciosJugables\\BuscaObjetos\\SeleccionObjetos.cs",
+              "ToolTip": "C:\\Users\\laura\\Documents\\GitHub\\ProyectoAlzAware\\AlzAware\\Assets\\Scripts\\EjerciciosJugables\\BuscaObjetos\\SeleccionObjetos.cs",
               "RelativeToolTip": "Assets\\Scripts\\EjerciciosJugables\\BuscaObjetos\\SeleccionObjetos.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEIAAAAAAAAA",
+              "ViewState": "AQIAABQAAAAAAAAAAAAQwBQAAAALAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-06T09:03:08.579Z"
+              "WhenOpened": "2024-11-06T09:03:08.579Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "GridSquare.cs",
-              "DocumentMoniker": "C:\\GitHub\\ProyectoAlzAware\\AlzAware\\Assets\\Scripts\\EjerciciosJugables\\Puzzle\\Game\\Grid\\GridSquare.cs",
+              "DocumentMoniker": "C:\\Users\\laura\\Documents\\GitHub\\ProyectoAlzAware\\AlzAware\\Assets\\Scripts\\EjerciciosJugables\\Puzzle\\Game\\Grid\\GridSquare.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\EjerciciosJugables\\Puzzle\\Game\\Grid\\GridSquare.cs",
-              "ToolTip": "C:\\GitHub\\ProyectoAlzAware\\AlzAware\\Assets\\Scripts\\EjerciciosJugables\\Puzzle\\Game\\Grid\\GridSquare.cs",
+              "ToolTip": "C:\\Users\\laura\\Documents\\GitHub\\ProyectoAlzAware\\AlzAware\\Assets\\Scripts\\EjerciciosJugables\\Puzzle\\Game\\Grid\\GridSquare.cs",
               "RelativeToolTip": "Assets\\Scripts\\EjerciciosJugables\\Puzzle\\Game\\Grid\\GridSquare.cs",
               "ViewState": "AQIAAC8AAAAAAAAAAAAuwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -75,11 +109,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "ControladorVolver.cs",
-              "DocumentMoniker": "C:\\GitHub\\ProyectoAlzAware\\AlzAware\\Assets\\Scripts\\Controladores\\ControladorVolver.cs",
+              "DocumentMoniker": "C:\\Users\\laura\\Documents\\GitHub\\ProyectoAlzAware\\AlzAware\\Assets\\Scripts\\Controladores\\ControladorVolver.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Controladores\\ControladorVolver.cs",
-              "ToolTip": "C:\\GitHub\\ProyectoAlzAware\\AlzAware\\Assets\\Scripts\\Controladores\\ControladorVolver.cs",
+              "ToolTip": "C:\\Users\\laura\\Documents\\GitHub\\ProyectoAlzAware\\AlzAware\\Assets\\Scripts\\Controladores\\ControladorVolver.cs",
               "RelativeToolTip": "Assets\\Scripts\\Controladores\\ControladorVolver.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -87,11 +121,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "ControladorEjercicios.cs",
-              "DocumentMoniker": "C:\\GitHub\\ProyectoAlzAware\\AlzAware\\Assets\\Scripts\\Controladores\\ControladorEjercicios.cs",
+              "DocumentMoniker": "C:\\Users\\laura\\Documents\\GitHub\\ProyectoAlzAware\\AlzAware\\Assets\\Scripts\\Controladores\\ControladorEjercicios.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Controladores\\ControladorEjercicios.cs",
-              "ToolTip": "C:\\GitHub\\ProyectoAlzAware\\AlzAware\\Assets\\Scripts\\Controladores\\ControladorEjercicios.cs",
+              "ToolTip": "C:\\Users\\laura\\Documents\\GitHub\\ProyectoAlzAware\\AlzAware\\Assets\\Scripts\\Controladores\\ControladorEjercicios.cs",
               "RelativeToolTip": "Assets\\Scripts\\Controladores\\ControladorEjercicios.cs",
               "ViewState": "AQIAADcAAAAAAAAAAAAgwG0AAAA4AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -99,15 +133,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "SeleccionRefran.cs",
-              "DocumentMoniker": "C:\\GitHub\\ProyectoAlzAware\\AlzAware\\Assets\\Scripts\\EjerciciosJugables\\Refranes\\SeleccionRefran.cs",
+              "DocumentMoniker": "C:\\Users\\laura\\Documents\\GitHub\\ProyectoAlzAware\\AlzAware\\Assets\\Scripts\\EjerciciosJugables\\Refranes\\SeleccionRefran.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\EjerciciosJugables\\Refranes\\SeleccionRefran.cs",
-              "ToolTip": "C:\\GitHub\\ProyectoAlzAware\\AlzAware\\Assets\\Scripts\\EjerciciosJugables\\Refranes\\SeleccionRefran.cs",
+              "ToolTip": "C:\\Users\\laura\\Documents\\GitHub\\ProyectoAlzAware\\AlzAware\\Assets\\Scripts\\EjerciciosJugables\\Refranes\\SeleccionRefran.cs",
               "RelativeToolTip": "Assets\\Scripts\\EjerciciosJugables\\Refranes\\SeleccionRefran.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEcAAAABAAAA",
+              "ViewState": "AQIAABkAAAAAAAAAAAAgwBQAAAALAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-13T08:42:16.336Z"
+              "WhenOpened": "2024-10-13T08:42:16.336Z",
+              "EditorCaption": ""
             }
           ]
         }

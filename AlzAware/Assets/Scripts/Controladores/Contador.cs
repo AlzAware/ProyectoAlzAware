@@ -45,11 +45,15 @@ public class Contador : MonoBehaviour
         }
         else if (currentScene.Contains("BuscaObjetos"))
         {
-            startTime = 60f;
+            startTime = 30f;
         }
         else if (currentScene.Contains("Refranes"))
         {
-            startTime = 60f;
+            startTime = 30f;
+        }
+        else  if (currentScene.Contains("FormaGeometrica"))
+        {
+            startTime = 30f;
         }
     }
     // Método para reiniciar el temporizador
