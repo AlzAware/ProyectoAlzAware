@@ -56,10 +56,10 @@ public class SeleccionRefran : MonoBehaviour
             // Cambiar a la imagen incorrecta
             opcionObject.sprite = incorrectImage;
 
-            // Reiniciar el temporizador según el ejercicio actual
+            //Disminuye temporizador si fallas
             if (contador != null)
             {
-                contador.RestartTimer();
+                contador.DecreaseTime();
             }
         }
     }

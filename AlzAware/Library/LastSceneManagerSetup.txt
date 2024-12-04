@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/EjerciciosJugables/SopaLetras/SopaLetras3.unity
+- path: Assets/Scenes/EjerciciosJugables/EstadisticasEjercicioSeleccionado.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

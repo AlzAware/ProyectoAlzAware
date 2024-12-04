@@ -57,10 +57,10 @@ public class SeleccionForma : MonoBehaviour
         {
             // Cambiar a la imagen incorrecta
             shapeImage.sprite = incorrectImage;
-
+            //Disminuye temporizador si fallas
             if (contador != null)
             {
-                contador.RestartTimer();
+                contador.DecreaseTime();
             }
         }
     }

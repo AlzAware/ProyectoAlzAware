@@ -7,14 +7,12 @@ using UnityEngine.SceneManagement;
 public class Contador : MonoBehaviour
 {
     public TMP_Text timerText;   // Referencia al componente de texto
-    public float startTime; // Tiempo inicial en segundos
-    private float initialTime; // Tiempo inicial guardado para reiniciar
+    private float startTime; // Tiempo inicial en segundos
     private bool timerIsRunning = false;
 
     void Start()
     {
         SetStartTimeBasedOnScene();
-        initialTime = startTime;     // Guardar el tiempo inicial para reinicios
         timerIsRunning = true;
     }
 
@@ -53,13 +51,13 @@ public class Contador : MonoBehaviour
         }
         else  if (currentScene.Contains("FormaGeometrica"))
         {
-            startTime = 30f;
+            startTime = 60f;
         }
     }
-    // Método para reiniciar el temporizador
-    public void RestartTimer()
+    // Método para disminuir el temporizador
+    public void DecreaseTime()
     {
-        startTime = initialTime;  // Reiniciar al tiempo original del ejercicio
+        startTime -= 7f;  // Resta tiempo del ejercicio
         timerIsRunning = true;    // Asegurar que el temporizador siga corriendo
     }
 
