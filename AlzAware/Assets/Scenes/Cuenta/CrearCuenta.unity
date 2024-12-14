@@ -1882,8 +1882,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "\xBFYa tienes una cuenta?"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 491221fcd00d5d44fa44c2c0746a7cb9, type: 2}
-  m_sharedMaterial: {fileID: 6957372896508262596, guid: 491221fcd00d5d44fa44c2c0746a7cb9, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a2e26dfad4520d24b91f90a2164376a5, type: 2}
+  m_sharedMaterial: {fileID: 6957372896508262596, guid: a2e26dfad4520d24b91f90a2164376a5, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -4082,7 +4082,7 @@ RectTransform:
   m_GameObject: {fileID: 2035884785}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.8504956, y: 0.8504956, z: 0.8504956}
+  m_LocalScale: {x: 0.74, y: 0.8504956, z: 0.8504956}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1996759896}

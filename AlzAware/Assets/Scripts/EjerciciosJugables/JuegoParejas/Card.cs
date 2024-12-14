@@ -12,6 +12,8 @@ public class Card : MonoBehaviour
     private bool isFlipping = false;        // Indica si la carta está en proceso de voltear
     private bool isAnimating = false;       // Indica si la carta está en proceso de animación de desaparición
 
+    private Vector3 initialScale;           // Escala inicial de la carta
+
     void Start()
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
@@ -21,7 +23,9 @@ public class Card : MonoBehaviour
 
         // Asegura que la carta esté oculta correctamente al inicio
         spriteRenderer.sprite = coverImage;
-        transform.localScale = new Vector3(1, 1, 1);
+
+        // Guarda la escala inicial
+        initialScale = transform.localScale;
     }
 
     void OnMouseDown()
@@ -39,22 +43,22 @@ public class Card : MonoBehaviour
         // Escalar la carta hacia atrás hasta 0 en el eje X (simulando la rotación)
         for (float i = 1; i >= 0; i -= 0.1f)
         {
-            transform.localScale = new Vector3(i, 1, 1);
+            transform.localScale = new Vector3(i * initialScale.x, initialScale.y, initialScale.z);
             yield return new WaitForSeconds(0.01f);
         }
 
         // Cambia el sprite cuando la carta está "de lado"
         spriteRenderer.sprite = isRevealed ? coverImage : cardImage;
 
-        // Completa la escala de vuelta a 1 en el eje X (simulando la rotación final)
+        // Completa la escala de vuelta a la escala inicial en el eje X
         for (float i = 0; i <= 1; i += 0.1f)
         {
-            transform.localScale = new Vector3(i, 1, 1);
+            transform.localScale = new Vector3(i * initialScale.x, initialScale.y, initialScale.z);
             yield return new WaitForSeconds(0.01f);
         }
 
-        // Asegura que la carta esté en la escala correcta (1 en el eje X)
-        transform.localScale = new Vector3(1, 1, 1);
+        // Asegura que la carta esté en la escala inicial
+        transform.localScale = initialScale;
 
         isRevealed = !isRevealed;
         isFlipping = false;
@@ -89,14 +93,14 @@ public class Card : MonoBehaviour
         // Crece la carta un poco
         for (float i = 1; i <= 1.2f; i += 0.05f)
         {
-            transform.localScale = new Vector3(i, i, 1);
+            transform.localScale = initialScale * i;
             yield return new WaitForSeconds(0.01f);
         }
 
         // Disminuye la carta hasta que desaparezca
         for (float i = 1.2f; i >= 0; i -= 0.05f)
         {
-            transform.localScale = new Vector3(i, i, 1);
+            transform.localScale = initialScale * i;
             yield return new WaitForSeconds(0.01f);
         }
 
