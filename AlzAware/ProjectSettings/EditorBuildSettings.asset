@@ -13,7 +13,7 @@ EditorBuildSettings:
     guid: a29d5887298393e4cb1b7304273c8003
   - enabled: 1
     path: Assets/Scenes/Cuenta/CrearCuenta.unity
-    guid: 8ad312e57348a4d4eaaed2bdaee48471
+    guid: b0e5f3669d8b188419ee964a11aeb1e5
   - enabled: 1
     path: Assets/Scenes/MenuPrincipal.unity
     guid: b71d40e3c50b81241b88eb57268f7184
@@ -42,56 +42,41 @@ EditorBuildSettings:
     path: Assets/Scenes/Ajustes/Ajustes_QuitarAnuncios.unity
     guid: b14daea3b66b31a49899251e4cbd18f8
   - enabled: 1
-    path: Assets/Scenes/Ajustes/Ajustes_Sonido.unity
-    guid: 1ca13bcb672daa74f8f8e4606e0785c2
-  - enabled: 1
-    path: Assets/Scenes/EjerciciosDiarios/EjercicioAleatorio_1.unity
-    guid: 831556589b6375d49a192b9462eeb904
-  - enabled: 1
-    path: Assets/Scenes/EjerciciosDiarios/EjercicioAleatorio_2.unity
-    guid: 1c55911e1fb6e0f45bb4d82f4e3195e6
-  - enabled: 1
-    path: Assets/Scenes/EjerciciosDiarios/EjercicioAleatorio_3.unity
-    guid: ddb1dc2ad592d15459da8d0897f1aec9
-  - enabled: 1
     path: Assets/Scenes/EjerciciosDiarios/EstadisticasDiarias.unity
     guid: f85bf718cd961474399f6cefb8de7404
   - enabled: 1
-    path: Assets/Scenes/EjerciciosJugables/EjercicioSeleccionado.unity
-    guid: f3674fdb9a60ea942abd48b816b617cc
-  - enabled: 1
-    path: Assets/Scenes/EjerciciosJugables/EstadisticasEjercicioSeleccionado.unity
+    path: Assets/Scenes/EjerciciosJugables/Estadisticas/EstadisticasEj1.unity
     guid: a95314db8df95864fa090eb54967a65f
   - enabled: 1
     path: Assets/Scenes/EjerciciosJugables/SopaLetras/SopaLetras.unity
     guid: 636786d53547c654b959280f9ebbb956
   - enabled: 1
     path: Assets/Scenes/EjerciciosJugables/SopaLetras/SopaLetras1.unity
-    guid: 3c92f60df945f2a479ebbe5103402fcb
+    guid: 625ea73c93897dd4dbc338fb4051b9bb
   - enabled: 1
     path: Assets/Scenes/EjerciciosJugables/SopaLetras/SopaLetras2.unity
-    guid: 81f3438fb09c17d4a866150394e05870
+    guid: dfea0474466a43640a622cd1bffaf452
   - enabled: 1
     path: Assets/Scenes/EjerciciosJugables/SopaLetras/SopaLetras3.unity
-    guid: 4595f9c8473eb31489b9de4ceb3f8ee5
+    guid: 90988d9694936c747b2977f644186d2c
   - enabled: 1
     path: Assets/Scenes/EjerciciosJugables/SopaLetras/SopaLetras4.unity
-    guid: 79d42b83f641daa458a82efcfd544ef3
+    guid: 4ae5e46d7cefbd24daedec77608256ac
   - enabled: 1
     path: Assets/Scenes/EjerciciosJugables/SopaLetras/SopaLetras5.unity
-    guid: aff39f858b97f0b4a8b12b7e53d8e7d2
+    guid: f48bb5132dc3e1a4ba2d1946c1c640fa
   - enabled: 1
     path: Assets/Scenes/EjerciciosJugables/SopaLetras/SopaLetras6.unity
-    guid: 687ebf74c53e5484ab5192057fc009f4
+    guid: 82b703db61414174a8eb257cbfbc95c9
   - enabled: 1
     path: Assets/Scenes/EjerciciosJugables/SopaLetras/SopaLetras7.unity
-    guid: e470cdf949b58f24994885e10fb947f1
+    guid: 69a878f757be61048988f79644c3a112
   - enabled: 1
     path: Assets/Scenes/EjerciciosJugables/SopaLetras/SopaLetras8.unity
-    guid: 0aea864e958e40f4880ea6899dc0016a
+    guid: d8764e386255835478c9548a5b907a0a
   - enabled: 1
     path: Assets/Scenes/EjerciciosJugables/SopaLetras/SopaLetras9.unity
-    guid: 32aca91badc3c904ca1ef394c535ba1b
+    guid: 515b25e7376daad4e8a551ed2f8762bb
   - enabled: 1
     path: Assets/Scenes/EjerciciosJugables/BuscaObjetos/BuscaObjetos1.unity
     guid: 571582bbe82b40545a225e952ebb2108
@@ -146,4 +131,19 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/EjerciciosJugables/FormasGeometricas/FormaGeometrica4.unity
     guid: 4a3f194b692315d4895e9cc791b964ad
+  - enabled: 1
+    path: Assets/Scenes/EjerciciosJugables/Estadisticas/EstadisticasEj2.unity
+    guid: 954f03af24b7c2d4a80f07c38a6232b0
+  - enabled: 1
+    path: Assets/Scenes/EjerciciosJugables/Estadisticas/EstadisticasEj3.unity
+    guid: cd89553dfa1065943876d84dcb0abed5
+  - enabled: 1
+    path: Assets/Scenes/EjerciciosJugables/Estadisticas/EstadisticasEj4.unity
+    guid: 38e955cc4f31c184fafcab66b3703977
+  - enabled: 1
+    path: Assets/Scenes/EjerciciosJugables/Estadisticas/EstadisticasEj5.unity
+    guid: f32e2b821c1e58244adad8875017337a
+  - enabled: 1
+    path: Assets/Scenes/EjerciciosJugables/Estadisticas/EstadisticasEj6.unity
+    guid: 98cdcfceae2d25e4c9ee4b3816e4c393
   m_configObjects: {}

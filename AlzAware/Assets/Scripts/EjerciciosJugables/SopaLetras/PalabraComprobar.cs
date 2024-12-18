@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using Unity.Collections.LowLevel.Unsafe;
@@ -21,30 +22,31 @@ public class PalabraComprobar : MonoBehaviour
     private Vector3 _rayStartPosition;
     private List<int> _correctSquareList = new List<int>();
 
+    private SQLiteManager dbManager;
+    private Contador contador;
 
-    //Metodo que habilita los eventos de la clase Eventos de juego: evaluar las celdas seleccionadas y limpiar la seleccion de las celdas
     private void OnEnable()
     {
         EventosJuego.OnCheckSquare += SquareSelected;
         EventosJuego.OnClearSelection += ClearSelection;
-        
-
     }
-    //Metodo que deshabilita los eventos de la clase Eventos de juego: evaluar las celdas seleccionadas y limpiar la seleccion de las celdas
+
     private void OnDisable()
     {
         EventosJuego.OnCheckSquare -= SquareSelected;
         EventosJuego.OnClearSelection -= ClearSelection;
-        
-
     }
-    
+
     void Start()
     {
         currentGameData.ClearData();
         _assignedPoints = 0;
         _completedWords = 0;
+
+        dbManager = FindObjectOfType<SQLiteManager>();
+        contador = FindObjectOfType<Contador>();
     }
+
     void Update()
     {
         if (_assignedPoints > 0 && Application.isEditor)
@@ -58,10 +60,8 @@ public class PalabraComprobar : MonoBehaviour
             Debug.DrawRay(_rayDiagonalRightUp.origin, _rayDiagonalRightUp.direction * 4);
             Debug.DrawRay(_rayDiagonalRightDown.origin, _rayDiagonalRightDown.direction * 4);
         }
-      
-
     }
-    //Metodo que maneja la direcciones en las que vas seleccionando las celdas, una vez seleccionada una direccion permite que se continue en esa y no en otra
+
     private void SquareSelected(string letter, Vector3 squarePosition, int squareIndex)
     {
         if (_assignedPoints == 0)
@@ -89,8 +89,8 @@ public class PalabraComprobar : MonoBehaviour
         }
         else
         {
-            if (IsPointOnTheRay(_currentRay, squarePosition)) { 
-            
+            if (IsPointOnTheRay(_currentRay, squarePosition))
+            {
                 _correctSquareList.Add(squareIndex);
                 EventosJuego.SelectSquareMethod(squarePosition);
                 _word += letter;
@@ -100,10 +100,9 @@ public class PalabraComprobar : MonoBehaviour
 
         _assignedPoints++;
     }
-    //Metodo que permite comprobar las palabras que contiene la sopa de letras al seleccionarlas y verifica si estan todas para completar la pizzara
+
     private void CheckWord()
     {
-        
         foreach (var searchingWord in currentGameData.SearchWords)
         {
             if (_word == searchingWord.Word && searchingWord.Found == false)
@@ -118,7 +117,7 @@ public class PalabraComprobar : MonoBehaviour
             }
         }
     }
-    //Metodo que permite comprobar si donde se selecciona esta el rayo que comprende las direcciones que se establecieron anteriormiente
+
     private bool IsPointOnTheRay(Ray currentRay, Vector3 point)
     {
         var hits = Physics.RaycastAll(currentRay, 100.0f);
@@ -129,63 +128,76 @@ public class PalabraComprobar : MonoBehaviour
         }
         return false;
     }
-    //Metodo que determina que direccion/rayo se puede seleccionar tras obtener la posicion de la primera y segunda celda seleccionada
+
     private Ray SelectRay(Vector2 firstPosition, Vector2 secondPosition)
     {
         var direction = (secondPosition - firstPosition).normalized;
         float tolerance = 0.01f;
-        if (Mathf.Abs(direction.x) < tolerance && Mathf.Abs(direction.y - 1f) < tolerance)
-        {
-            return _rayUp;
-        }
-        if (Mathf.Abs(direction.x) < tolerance && Mathf.Abs(direction.y - (-1f)) < tolerance)
-        {
-            return _rayDown;
-        }
-        if (Mathf.Abs(direction.x - (-1f)) < tolerance && Mathf.Abs(direction.y) < tolerance)
-        {
-            return _rayLeft;
-        }
-        if (Mathf.Abs(direction.x - 1f) < tolerance && Mathf.Abs(direction.y) < tolerance)
-        {
-            return _rayRight;
-        }
-        if (direction.x < 0f && direction.y > 0f)
-        {
-            return _rayDiagonalLeftUp;
-        }
-        if (direction.x < 0f && direction.y < 0f)
-        {
-            return _rayDiagonalLeftDown;
-        }
-        if (direction.x > 0f && direction.y > 0f)
-        {
-            return _rayDiagonalRightUp;
-        }
-        if (direction.x > 0f && direction.y < 0f)
-        {
-            return _rayDiagonalRightDown;
-        }
+        if (Mathf.Abs(direction.x) < tolerance && Mathf.Abs(direction.y - 1f) < tolerance) return _rayUp;
+        if (Mathf.Abs(direction.x) < tolerance && Mathf.Abs(direction.y - (-1f)) < tolerance) return _rayDown;
+        if (Mathf.Abs(direction.x - (-1f)) < tolerance && Mathf.Abs(direction.y) < tolerance) return _rayLeft;
+        if (Mathf.Abs(direction.x - 1f) < tolerance && Mathf.Abs(direction.y) < tolerance) return _rayRight;
+        if (direction.x < 0f && direction.y > 0f) return _rayDiagonalLeftUp;
+        if (direction.x < 0f && direction.y < 0f) return _rayDiagonalLeftDown;
+        if (direction.x > 0f && direction.y > 0f) return _rayDiagonalRightUp;
+        if (direction.x > 0f && direction.y < 0f) return _rayDiagonalRightDown;
         return _rayDown;
     }
-    //Metodo que limpia la seleccion de las celdas
+
     private void ClearSelection()
     {
         _assignedPoints = 0;
         _correctSquareList.Clear();
         _word = string.Empty;
     }
-     // Metodo que comprueba si la pizarra se ha completado para finalizar el juego
+
     private void CheckBoardCompleted()
     {
         if (currentGameData.SearchWords.Count == _completedWords)
         {
-                    SceneManager.LoadScene("EstadisticasEjercicioSeleccionado");
-                    return;                
-        }
+            Debug.Log("Juego completado, guardando estadísticas...");
 
-            EventosJuego.BoardCompletedMethod();
-        
+            // Detener el temporizador
+            contador.DetenerTemporizador();
+
+            // Obtener valores
+            int idUsuario = ObtenerIdUsuario(); // ID del usuario activo
+            int idEjercicio = 1; // ID del ejercicio (Sopa de Letras)
+            int puntuacion = CalcularPuntuacion(contador.ObtenerTiempoActual());
+            string fecha = DateTime.Now.ToString("dd/MM/yyyy");
+
+            // Guardar estadísticas en la base de datos
+            dbManager.InsertEstadistica(idUsuario, idEjercicio, puntuacion, fecha);
+
+            // Cargar escena
+            SceneManager.LoadScene("EstadisticasEj1");
+        }
     }
 
+    private int ObtenerIdUsuario()
+    {
+        return PlayerPrefs.GetInt("UsuarioActivoID", 0); // Obtiene el ID del usuario activo
+    }
+
+    private int CalcularPuntuacion(int tiempoSegundos)
+    {
+        // Tiempo mínimo y máximo en segundos
+        int tiempoMinimo = 180; // 3:00
+        int tiempoMaximo = 600; // 10:00
+
+        // Si el tiempo es menor o igual al mínimo, puntuación máxima
+        if (tiempoSegundos <= tiempoMinimo)
+        {
+            return 100;
+        }
+        // Si el tiempo es mayor o igual al máximo, puntuación mínima
+        if (tiempoSegundos >= tiempoMaximo)
+        {
+            return 10;
+        }
+
+        // Cálculo proporcional de la puntuación
+        float puntuacion = 100 - ((float)(tiempoSegundos - tiempoMinimo) / (tiempoMaximo - tiempoMinimo) * 90);
+        return Mathf.RoundToInt(puntuacion);
+    }
 }

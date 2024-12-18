@@ -333,14 +333,55 @@ using UnityEngine;
             // Si no hay formas válidas que se puedan colocar, el juego termina.
             if(validShapes == 0)
             {
-                //GAME OVER
-                GameEvents.GameOver(false);
-                //Debug.Log("GAME OVER");
+            // GAME OVER
+            Debug.Log("No quedan movimientos, juego terminado.");
+
+            // Obtener el puntaje actual desde el script Scores
+            var scores = FindObjectOfType<Scores>();
+            int puntuacion = 0;
+            if (scores != null)
+            {
+                puntuacion = CalcularPuntuacion(int.Parse(scores.scoreText.text));
             }
+            else
+            {
+                Debug.LogError("No se encontró el script Scores.");
+            }
+
+            // Obtener valores para las estadísticas
+            int idUsuario = ObtenerIdUsuario(); // ID del usuario activo
+            int idEjercicio = 4; // ID del ejercicio (Bloques)
+            string fecha = System.DateTime.Now.ToString("dd/MM/yyyy");
+
+            // Guardar estadísticas en la base de datos
+            var dbManager = FindObjectOfType<SQLiteManager>();
+            if (dbManager != null)
+            {
+                dbManager.InsertEstadistica(idUsuario, idEjercicio, puntuacion, fecha);
+                Debug.Log($"Estadísticas guardadas: ID Usuario: {idUsuario}, ID Ejercicio: {idEjercicio}, Puntuación: {puntuacion}, Fecha: {fecha}");
+            }
+            else
+            {
+                Debug.LogError("No se encontró el gestor de la base de datos.");
+            }
+
+            // Notificar el evento de fin de juego
+            GameEvents.GameOver(false);
+
+            // Cargar la escena de estadísticas
+            UnityEngine.SceneManagement.SceneManager.LoadScene("EstadisticasEj4");
         }
-        
-        // Método para comprobar si una forma específica se puede colocar en la cuadrícula.
-        private bool CheckIfShapeCanBePlacedOnGrid(Shape currentShape)
+    }
+
+    // Método para obtener el ID del usuario activo
+    private int ObtenerIdUsuario()
+    {
+        return PlayerPrefs.GetInt("UsuarioActivoID", 0); // Obtiene el ID del usuario activo
+    }
+
+
+    // Método para comprobar si una forma específica se puede colocar en la cuadrícula.
+    private bool CheckIfShapeCanBePlacedOnGrid(Shape currentShape)
         {
             var CurrentShapeData = currentShape.CurrentShapeData;
             var shapeColumns = CurrentShapeData.columns;
@@ -434,7 +475,32 @@ using UnityEngine;
 
             return squareList;
         }
+
+    private int CalcularPuntuacion(int puntuacionActual)
+    {
+        // Valores para la puntuación
+        int maxContador = 200; // Valor máximo del contador
+        int puntuacionMaxima = 100; // Puntuación máxima
+        int puntuacionMinima = 10;  // Puntuación mínima
+
+        // Si la puntuación actual es menor o igual a 0, devuelve la puntuación mínima
+        if (puntuacionActual <= 0)
+        {
+            return puntuacionMinima;
+        }
+
+        // Si la puntuación actual es mayor o igual al máximo del contador, devuelve la puntuación máxima
+        if (puntuacionActual >= maxContador)
+        {
+            return puntuacionMaxima;
+        }
+
+        // Cálculo proporcional de la puntuación ajustada
+        float puntuacionAjustada = ((float)puntuacionActual / maxContador) * (puntuacionMaxima - puntuacionMinima) + puntuacionMinima;
+        return Mathf.RoundToInt(puntuacionAjustada);
     }
+
+}
 
 
 

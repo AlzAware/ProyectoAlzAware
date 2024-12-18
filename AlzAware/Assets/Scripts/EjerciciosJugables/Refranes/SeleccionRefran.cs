@@ -19,16 +19,16 @@ public class SeleccionRefran : MonoBehaviour
     public static int correctObjectsCount = 1;
 
     private Contador contador;
+    private SQLiteManager dbManager;
 
     void Start()
     {
         // Obtener el componente Image del objeto
         opcionObject = GetComponent<Image>();
         correctObjectsCount = 0;
-        if (contador == null)
-        {
-            contador = FindObjectOfType<Contador>();
-        }
+
+        dbManager = FindObjectOfType<SQLiteManager>();
+        contador = FindObjectOfType<Contador>();
 
     }
 
@@ -45,9 +45,22 @@ public class SeleccionRefran : MonoBehaviour
 
             if (correctObjectsCount >= 1)
             {
+                Debug.Log("Juego completado, guardando estadísticas...");
 
-                // Cambiar a la otra escena pasado 2seg
-                Invoke("cambiarEscena", 1.0f);
+                // Detener el temporizador
+                contador.DetenerTemporizador();
+
+                // Obtener valores
+                int idUsuario = ObtenerIdUsuario(); // ID del usuario activo
+                int idEjercicio = 5; // ID del ejercicio (Busca Objetos)
+                int puntuacion = CalcularPuntuacion(contador.ObtenerTiempoActual());
+                string fecha = DateTime.Now.ToString("dd/MM/yyyy");
+
+                // Guardar estadísticas en la base de datos
+                dbManager.InsertEstadistica(idUsuario, idEjercicio, puntuacion, fecha);
+
+                // Cargar escena
+                SceneManager.LoadScene("EstadisticasEj5");
             }
 
         }
@@ -59,14 +72,34 @@ public class SeleccionRefran : MonoBehaviour
             //Disminuye temporizador si fallas
             if (contador != null)
             {
-                contador.DecreaseTime();
+                contador.AddTime(10f); // Suma 10 segundos y activa el efecto de color rojo
             }
         }
     }
-
-    //Metodo para pasar a la escena indicada
-    public void cambiarEscena()
+    private int ObtenerIdUsuario()
     {
-        SceneManager.LoadScene("EstadisticasEjercicioSeleccionado");
+        return PlayerPrefs.GetInt("UsuarioActivoID", 0); // Obtiene el ID del usuario activo
+    }
+
+    private int CalcularPuntuacion(int tiempoSegundos)
+    {
+        // Tiempo mínimo y máximo en segundos
+        int tiempoMinimo = 15; // 0:15
+        int tiempoMaximo = 60; // 1:00
+
+        // Si el tiempo es menor o igual al mínimo, puntuación máxima
+        if (tiempoSegundos <= tiempoMinimo)
+        {
+            return 100;
+        }
+        // Si el tiempo es mayor o igual al máximo, puntuación mínima
+        if (tiempoSegundos >= tiempoMaximo)
+        {
+            return 10;
+        }
+
+        // Cálculo proporcional de la puntuación
+        float puntuacion = 100 - ((float)(tiempoSegundos - tiempoMinimo) / (tiempoMaximo - tiempoMinimo) * 90);
+        return Mathf.RoundToInt(puntuacion);
     }
 }

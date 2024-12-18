@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -21,6 +22,7 @@ public class SeleccionForma : MonoBehaviour
 
     // Referencia al script del temporizador
     private Contador contador;
+    private SQLiteManager dbManager;
 
     void Start()
     {
@@ -31,10 +33,9 @@ public class SeleccionForma : MonoBehaviour
         {
             totalCorrectObjects++;
         }
-        if (contador == null)
-        {
-            contador = FindObjectOfType<Contador>();
-        }
+
+        dbManager = FindObjectOfType<SQLiteManager>();
+        contador = FindObjectOfType<Contador>();
     }
 
     // Método que se llama cuando se hace clic en el objeto
@@ -49,8 +50,22 @@ public class SeleccionForma : MonoBehaviour
             // Verificar si todos los objetos correctos han sido seleccionados
             if (correctObjectsCount >= totalCorrectObjects)
             {
-                // Cambiar a la otra escena
-                SceneManager.LoadScene("EstadisticasEjercicioSeleccionado");
+                Debug.Log("Juego completado, guardando estadísticas...");
+
+                // Detener el temporizador
+                contador.DetenerTemporizador();
+
+                // Obtener valores
+                int idUsuario = ObtenerIdUsuario(); // ID del usuario activo
+                int idEjercicio = 6; // ID del ejercicio (Busca Objetos)
+                int puntuacion = CalcularPuntuacion(contador.ObtenerTiempoActual());
+                string fecha = DateTime.Now.ToString("dd/MM/yyyy");
+
+                // Guardar estadísticas en la base de datos
+                dbManager.InsertEstadistica(idUsuario, idEjercicio, puntuacion, fecha);
+
+                // Cargar escena
+                SceneManager.LoadScene("EstadisticasEj6");
             }
         }
         else
@@ -60,8 +75,35 @@ public class SeleccionForma : MonoBehaviour
             //Disminuye temporizador si fallas
             if (contador != null)
             {
-                contador.DecreaseTime();
+                contador.AddTime(10f); // Suma 10 segundos y activa el efecto de color rojo
             }
         }
+    }
+
+    private int ObtenerIdUsuario()
+    {
+        return PlayerPrefs.GetInt("UsuarioActivoID", 0); // Obtiene el ID del usuario activo
+    }
+
+    private int CalcularPuntuacion(int tiempoSegundos)
+    {
+        // Tiempo mínimo y máximo en segundos
+        int tiempoMinimo = 45; // 0:45
+        int tiempoMaximo = 180; // 3:00
+
+        // Si el tiempo es menor o igual al mínimo, puntuación máxima
+        if (tiempoSegundos <= tiempoMinimo)
+        {
+            return 100;
+        }
+        // Si el tiempo es mayor o igual al máximo, puntuación mínima
+        if (tiempoSegundos >= tiempoMaximo)
+        {
+            return 10;
+        }
+
+        // Cálculo proporcional de la puntuación
+        float puntuacion = 100 - ((float)(tiempoSegundos - tiempoMinimo) / (tiempoMaximo - tiempoMinimo) * 90);
+        return Mathf.RoundToInt(puntuacion);
     }
 }

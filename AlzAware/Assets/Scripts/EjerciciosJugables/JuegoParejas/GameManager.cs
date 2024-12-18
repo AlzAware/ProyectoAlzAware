@@ -2,6 +2,7 @@ using System.Collections;
 using UnityEngine;
 using TMPro;  // Asegúrate de tener esta referencia si no la tienes ya
 using UnityEngine.SceneManagement;
+using System;
 
 public class GameManager : MonoBehaviour
 {
@@ -19,6 +20,8 @@ public class GameManager : MonoBehaviour
     private int totalPairs;             // Número total de parejas
     private int matchedPairs = 0;       // Número de parejas emparejadas correctamente
 
+    private Contador contador;
+    private SQLiteManager dbManager;
     void Start()
     {
         timer = 0f;
@@ -26,6 +29,9 @@ public class GameManager : MonoBehaviour
 
         // Obtener el número total de parejas desde el BoardManager
         totalPairs = boardManager.cardSprites.Length; // El número total de sprites es igual al número de parejas
+        
+        dbManager = FindObjectOfType<SQLiteManager>();
+        contador = FindObjectOfType<Contador>();
     }
 
     private IEnumerator UpdateTimer()
@@ -92,19 +98,22 @@ public class GameManager : MonoBehaviour
 
     private void GameOver()
     {
-        gameEnded = true; // Detiene el temporizador
+        Debug.Log("Juego completado, guardando estadísticas...");
 
-        // Cambia el color del texto del temporizador a naranja
-        timerText.color = new Color(1f, 0.5f, 0f); // Color naranja
+        // Detener el temporizador
+        contador.DetenerTemporizador();
 
-        // Espera 2 segundos antes de cambiar de escena
-        StartCoroutine(WaitAndLoadScene());
-    }
+        // Obtener valores
+        int idUsuario = ObtenerIdUsuario(); // ID del usuario activo
+        int idEjercicio = 3; // ID del ejercicio (Busca Objetos)
+        int puntuacion = CalcularPuntuacion(contador.ObtenerTiempoActual());
+        string fecha = DateTime.Now.ToString("dd/MM/yyyy");
 
-    private IEnumerator WaitAndLoadScene()
-    {
-        yield return new WaitForSeconds(3f);
-        SceneManager.LoadScene("EstadisticasEjercicioSeleccionado");
+        // Guardar estadísticas en la base de datos
+        dbManager.InsertEstadistica(idUsuario, idEjercicio, puntuacion, fecha);
+
+        // Cargar escena
+        SceneManager.LoadScene("EstadisticasEj3");
     }
 
     public bool IsWaitingForMatch()
@@ -115,5 +124,32 @@ public class GameManager : MonoBehaviour
     public void VolverAEjercicios()
     {
         SceneManager.LoadScene("Ejercicios");
+    }
+
+    private int ObtenerIdUsuario()
+    {
+        return PlayerPrefs.GetInt("UsuarioActivoID", 0); // Obtiene el ID del usuario activo
+    }
+
+    private int CalcularPuntuacion(int tiempoSegundos)
+    {
+        // Tiempo mínimo y máximo en segundos
+        int tiempoMinimo = 120; // 2:00
+        int tiempoMaximo = 600; // 10:00
+
+        // Si el tiempo es menor o igual al mínimo, puntuación máxima
+        if (tiempoSegundos <= tiempoMinimo)
+        {
+            return 100;
+        }
+        // Si el tiempo es mayor o igual al máximo, puntuación mínima
+        if (tiempoSegundos >= tiempoMaximo)
+        {
+            return 10;
+        }
+
+        // Cálculo proporcional de la puntuación
+        float puntuacion = 100 - ((float)(tiempoSegundos - tiempoMinimo) / (tiempoMaximo - tiempoMinimo) * 90);
+        return Mathf.RoundToInt(puntuacion);
     }
 }
