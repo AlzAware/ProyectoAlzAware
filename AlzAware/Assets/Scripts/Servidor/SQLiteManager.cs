@@ -143,5 +143,48 @@ public class SQLiteManager : MonoBehaviour
         return estadisticas;
     }
 
+    public void CambiarContrasena(string nombreUsuario, string nuevaContrasena)
+    {
+        using (var db = new SQLiteConnection(dbPath))
+        {
+            var usuario = db.Table<UsuarioData>().FirstOrDefault(u => u.Usuario == nombreUsuario);
+
+            if (usuario != null)
+            {
+                usuario.Contrasena = nuevaContrasena;
+                db.Update(usuario);
+                Debug.Log($"Contraseña actualizada para el usuario: {nombreUsuario}");
+            }
+            else
+            {
+                throw new System.Exception($"Usuario '{nombreUsuario}' no encontrado.");
+            }
+        }
+    }
+
+    // Elimina un usuario si el nombre de usuario y la contraseña coinciden.
+    // True si se eliminó el usuario, False si no coincide o no existe.
+    public bool EliminarUsuario(string usuario, string contrasena)
+    {
+        using (var db = new SQLiteConnection(dbPath))
+        {
+            // Verifica si existe el usuario con la contraseña dada
+            var usuarioExistente = db.Table<UsuarioData>()
+                .FirstOrDefault(u => u.Usuario == usuario && u.Contrasena == contrasena);
+
+            if (usuarioExistente != null)
+            {
+                db.Delete(usuarioExistente); // Elimina al usuario
+                Debug.Log($"Usuario eliminado: {usuario}");
+                return true;
+            }
+            else
+            {
+                Debug.LogWarning($"Usuario no encontrado o contraseña incorrecta: {usuario}");
+                return false;
+            }
+        }
+    }
+
 
 }
